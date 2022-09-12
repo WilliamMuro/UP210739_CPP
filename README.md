@@ -6,7 +6,7 @@
 Repositorio materia de programación
 
 # ___˚⭒☆TACOS DE BUCHE☆⭒˚___
-![):](imagen/shutterstock_1022498464.jpg)
+![):](imagen/wtf.jpg)
 
 ### Redes sociales
 - ___⛧Insta https://www.instagram.com/2004stars/___
