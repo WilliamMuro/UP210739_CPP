@@ -10,7 +10,7 @@ Repositorio materia de programación
 # ___˚⭒☆TACOS DE BUCHE☆⭒˚___
 ![):](imagen/wtf.jpg)
 
-|Redes sociales:                              |
+|Redes sociales:|
 |:--------------------------------------------|
 |⛧Insta https://www.instagram.com/2004stars/|
-|⛤Snap https://t.snapchat.com/0oiZSAmo      |
+|⛤Snap https://t.snapchat.com/0oiZSAmo|
