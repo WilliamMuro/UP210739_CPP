@@ -9,5 +9,5 @@ Repositorio materia de programación
 ![):](imagen/wtf.jpg)
 
 ### Redes sociales
-- ___⛧Insta https://www.instagram.com/2004stars/___
-- ___⛤Snap https://t.snapchat.com/0oiZSAmo___
+- ⛧Insta https://www.instagram.com/2004stars/
+- ⛤Snap https://t.snapchat.com/0oiZSAmo
