@@ -12,5 +12,5 @@ Repositorio materia de programación
 
 |Redes sociales:                              |
 |:--------------------------------------------|
-|- ⛧Insta https://www.instagram.com/2004stars/|
-|- ⛤Snap https://t.snapchat.com/0oiZSAmo      |
+|⛧Insta https://www.instagram.com/2004stars/|
+|⛤Snap https://t.snapchat.com/0oiZSAmo      |
