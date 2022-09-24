@@ -27,28 +27,39 @@ int main()
     cout << "Ingrese el monto a pagar de renta anualmente: ";
     cin >> grande;
 
-    if (grande <= 10000);
-    {
+    if (grande >= 0) {
         porcentaje = 0.05;
     }
-
-    if (grande > 10000);
+    else
     {
+        grande <= 10000;
+    }
+
+    if (grande > 10000) {
         porcentaje = 0.15;
     }
-    
-    if (grande <= 35000);
+    else
     {
+        grande <= 20000;
+    }
+    
+    if (grande > 20000) {
         porcentaje = 0.20;
     }
-
-    if (grande <= 60000);
+    else
     {
-        porcentaje = 0.30;
+        grande <= 35000;
     }
 
-    if (grande > 60000);
+    if (grande > 35000) {
+        porcentaje = 0.30;
+    }
+    else
     {
+        grande <= 60000;
+    }
+
+    if (grande > 60000) {
         porcentaje = 0.45;
     }
 
