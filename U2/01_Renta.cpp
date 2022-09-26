@@ -62,6 +62,7 @@ int main()
     if (grande > 60000) {
         porcentaje = 0.45;
     }
+    cout << "Su impuesto es de: "<< porcentaje << endl;
 
     impuestos = grande*porcentaje;
 
