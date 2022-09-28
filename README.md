@@ -1,7 +1,8 @@
 # ___˚⭒☆UP210739☆⭒˚___
-## Computer Systems Engineering
+## Computer Systems Engineering 3° B
+
 
 ### Programming Matter Repository
-Los trabajos y las prácticas de programación se subirán a este repositorio.
+Works and programming practices will be uploaded in this repository.
 
 ![):](imagen/wtf.jpg)
