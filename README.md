@@ -1,5 +1,5 @@
 <h1 alinge=center> 
-# ___˚⭒☆UP210739☆⭒˚___
+˚⭒☆UP210739☆⭒˚
 </h1>
 
 ## UPA<br>Computer Systems Engineering<br>3° B
