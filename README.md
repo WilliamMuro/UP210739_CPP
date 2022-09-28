@@ -1,4 +1,4 @@
-<h1 alinge=center> 
+<h1 align=center> 
 ˚⭒☆UP210739☆⭒˚
 </h1>
 
