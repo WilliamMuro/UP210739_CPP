@@ -10,3 +10,4 @@ Works and programming practices will be uploaded in this repository.<br>
 ![):](imagen/wtf.jpg)
 
 |Instagram: | https://www.instagram.com/2004stars/ |
+|:--------- |:------------------------------------ |
