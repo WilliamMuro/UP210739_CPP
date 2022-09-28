@@ -1,9 +1,6 @@
 # ___˚⭒☆UP210739☆⭒˚___
 
-## UPA
-<>br
-## Computer Systems Engineering
-## 3° B
+## UPA<br>Computer Systems Engineering<br>3° B
 
 ### Programming Matter Repository
 Works and programming practices will be uploaded in this repository.
