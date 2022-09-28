@@ -1,22 +1,7 @@
+# ___˚⭒☆UP210739☆⭒˚___
+## Computer Systems Engineering
 
+### Programming Matter Repository
+Los trabajos y las prácticas de programación se subirán a este repositorio.
 
-### Universidad Politécnica de Aguascalientes
-
-# ___★Repositorio★___
-## César William Muro Hernández UP210739
-
-Repositorio materia de programación
-
-- x
-- y
-- z
-
-# ___˚⭒☆STARZ☆⭒˚___
 ![):](imagen/wtf.jpg)
-
-
-
-|Redes sociales:|
-|:------------------------------------------|
-|Insta https://www.instagram.com/2004stars/|
-|Snap https://t.snapchat.com/0oiZSAmo|
