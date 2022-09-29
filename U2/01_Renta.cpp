@@ -20,51 +20,51 @@ using namespace std;
 //Funcion principal de tipo entero
 int main()
 {
-    double grande;
+    double cantidad;
     float porcentaje;
     float impuestos;
 
     cout << "Ingrese el monto a pagar de renta anualmente: ";
-    cin >> grande;
+    cin >> cantidad;
 
-    if (grande >= 0) {
+    if (cantidad >= 0) {
         porcentaje = 0.05;
     }
     else
     {
-        grande <= 10000;
+        cantidad <= 10000;
     }
 
-    if (grande > 10000) {
+    if (cantidad > 10000) {
         porcentaje = 0.15;
     }
     else
     {
-        grande <= 20000;
+        cantidad <= 20000;
     }
     
-    if (grande > 20000) {
+    if (cantidad > 20000) {
         porcentaje = 0.20;
     }
     else
     {
-        grande <= 35000;
+        cantidad <= 35000;
     }
 
-    if (grande > 35000) {
+    if (cantidad > 35000) {
         porcentaje = 0.30;
     }
     else
     {
-        grande <= 60000;
+        cantidad <= 60000;
     }
 
-    if (grande > 60000) {
+    if (cantidad > 60000) {
         porcentaje = 0.45;
     }
     cout << "Su impuesto es de: "<< porcentaje << endl;
 
-    impuestos = grande*porcentaje;
+    impuestos = cantidad*porcentaje;
 
     cout << "El monto de impuesto a pagar es: "<< impuestos << endl;
 
