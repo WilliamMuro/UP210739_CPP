@@ -1,10 +1,5 @@
-//Libreria para manejo de entradas y salida de pantalla
 #include <iostream>
-
-//Uso de mainspace para evitar el std::
 using namespace std;
-
-//Funcion principal de tipo entero
 int main()
 {
     float edad;

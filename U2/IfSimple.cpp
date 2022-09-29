@@ -6,13 +6,8 @@ Description:
 Last Modification:
 */
 
-//Libreria para manejo de entradas y salida de pantalla
 #include <iostream>
-
-//Uso de mainspace para evitar el std::
 using namespace std;
-
-//Funcion principal de tipo entero
 int main()
 {
     int numero;
@@ -22,11 +17,6 @@ int main()
     if (numero == dato){
         cout << "El numero es igual a dato" << endl;
     }
-
-    //Ejercicio: utilice las diferentes comparaciones ==, !=, <, >, <=, >=
-
-
-
-    //Al ser una funcion debe retornar un valor, en este caso 0
+    
     return 0;
 }
