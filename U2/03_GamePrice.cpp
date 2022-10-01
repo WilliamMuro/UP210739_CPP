@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-    float age;
+    double age;
 
     cout << "Enter your age: ";
     cin >> age;
@@ -12,13 +12,9 @@ int main()
         cout << "The price of the game room is: $0";
     }
     
-    if (age > 4)
+    else if (age > 4 && age <= 18)
     {
         cout << "The price of the game room is: $5";
-    }
-    else
-    {
-        age <= 18;
     }
 
     if (age > 18)

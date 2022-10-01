@@ -1,4 +1,6 @@
-# UNIT 2
+<h1 align=center>
+UNIT 2
+</h>
 
 #### Activity 1. (01_Rent.cpp)
 The tax brackets for the declaration of income in a given country are the following:<br>
@@ -77,7 +79,12 @@ The program works from three variables:<br>
 
 Through if and elese the program identifies the amount and assigns a percentage to obtain, performs a simple operation multiplying the amount variable with the percentage variable and at the end it prints the amount of tax to pay.<br>
 
-
+![):](Image/Screenshot(1).png)
+![):](Image/Screenshot(2).png)
+![):](Image/Screenshot(3).png)
+![):](Image/Screenshot(4).png)
+![):](Image/Screenshot(5).png)
+<br>
 
 #### Activity 2. (02_Benefits.cpp)
 In a certain company, its employees are evaluated at the end of each year. The points that can be obtained in the evaluation start at 0.0 and can go up, translating into better benefits. The points you can get employees can be 0.0, 0.4, 0.6 or more, but not intermediate values between the figures mentioned.Below is a table with the levels corresponding to each score. The amount of money earned on each level is $2,400 multiplied by the level score.<br>
@@ -127,7 +134,11 @@ The program works from three variables:<br>
 
 Using an if, the program identifies the user's score and saves it in the level variable, performs a simple operation multiplying the payment and level variables, and finally prints the amount that the user will receive.<br>
 
-
+![):](Image/Screenshot(6).png)
+![):](Image/Screenshot(7).png)
+![):](Image/Screenshot(8).png)
+![):](Image/Screenshot(9).png)
+<br>
 
 #### Activity 3. (03_GamePrice.cpp)
 Write a program for a company that has arcades for all ages and wants to automatically calculate the price to charge its customers for entering. The
@@ -139,7 +150,7 @@ the client is under 4 years old can enter for free, if they are between 4 and 18
 using namespace std;
 int main()
 {
-    float age;
+    double age;
 
     cout << "Enter your age: ";
     cin >> age;
@@ -149,13 +160,9 @@ int main()
         cout << "The price of the game room is: $0";
     }
     
-    if (age > 4)
+    else if (age > 4 && age <= 18)
     {
         cout << "The price of the game room is: $5";
-    }
-    else
-    {
-        age <= 18;
     }
 
     if (age > 18)
@@ -169,7 +176,11 @@ int main()
 
 The program only works with the age variable, which is a number entered by the user, using if and else the program identifies to which age group the number belongs and prints the price to pay.<br>
 
-
+![):](Image/Screenshot(10).png)
+![):](Image/Screenshot(11).png)
+![):](Image/Screenshot(12).png)
+![):](Image/Screenshot(13).png)
+<br>
 
 #### Activity 4. (04_Pizza.cpp)
 The Bella Napoli pizzeria offers vegetarian and non-vegetarian pizzas to its customers. The ingredients for each type of pizza are listed below.
@@ -210,7 +221,7 @@ int main()
     if ((type == 'N') || (type == 'n'))
     {
         cout << "What ingredient will your normal pizza have?"<< endl;
-        cout << "Type (P) for pepperoni or (J) for ham or (S) for salmon: ";
+        cout << "Type (P) for pepperoni or (H) for ham or (S) for salmon: ";
         cin >> ingredient;
 
         if ((ingredient == 'P') || (ingredient == 'p'))
@@ -218,7 +229,7 @@ int main()
             cout << "Your pizza will be: Normal pepperoni.";
         }
 
-        if ((ingredient == 'J') || (ingredient == 'j'))
+        if ((ingredient == 'H') || (ingredient == 'h'))
         {
             cout << "Your pizza will be: Normal ham.";
         }
@@ -240,3 +251,9 @@ The program uses two variables:<br>
 2. ingredient: saves the key entered by the user that determines the ingredient.<br>
 
 The program through if asks the user to enter the type of pizza and the ingredient, at the end depending on the type and ingredient it prints what the pizza will be like.<br>
+
+![):](Image/Screenshot(14).png)
+![):](Image/Screenshot(15).png)
+![):](Image/Screenshot(16).png)
+![):](Image/Screenshot(17).png)
+![):](Image/Screenshot(18).png)

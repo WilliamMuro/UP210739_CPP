@@ -30,7 +30,7 @@ int main()
     if ((type == 'N') || (type == 'n'))
     {
         cout << "What ingredient will your normal pizza have?"<< endl;
-        cout << "Type (P) for pepperoni or (J) for ham or (S) for salmon: ";
+        cout << "Type (P) for pepperoni or (H) for ham or (S) for salmon: ";
         cin >> ingredient;
 
         if ((ingredient == 'P') || (ingredient == 'p'))
@@ -38,7 +38,7 @@ int main()
             cout << "Your pizza will be: Normal pepperoni.";
         }
 
-        if ((ingredient == 'J') || (ingredient == 'j'))
+        if ((ingredient == 'H') || (ingredient == 'h'))
         {
             cout << "Your pizza will be: Normal ham.";
         }
