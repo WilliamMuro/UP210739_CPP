@@ -2,50 +2,50 @@
 using namespace std;
 int main()
 {
-    char tipo;
-    char ingre;
+    char type;
+    char ingredient;
 
-    cout << "Bienvenido a Pizza Bella Napoli"<< endl;
-    cout << "Que tipo de pizza desea ordenar:"<< endl;
-    cout << "Teclee (V) para ordenar pizza vegetariana o (N) para pizza normal: ";
-    cin >> tipo;
+    cout << "Welcome to the Pizza Bella Napoli"<< endl;
+    cout << "What type of pizza do you want to order?"<< endl;
+    cout << "Type (V) to order vegetarian pizza or (N) for regular pizza: ";
+    cin >> type;
 
-    if ((tipo == 'V') || (tipo == 'v'))
+    if ((type == 'V') || (type == 'v'))
     {
-        cout << "Que ingrediente tendra su pizza vegetariana:"<< endl;
-        cout << "Teclee (P) para pimiento o (T) para tofu: ";
-        cin >> ingre;
+        cout << "What ingredient will your vegetarian pizza have?"<< endl;
+        cout << "Type (P) for bell pepper or (T) for tofu: ";
+        cin >> ingredient;
 
-        if ((ingre == 'P') || (ingre == 'p'))
+        if ((ingredient == 'P') || (ingredient == 'p'))
         {
-            cout << "Su pizza sera: Vegetariana de pimiento.";
+            cout << "Your pizza will be: Vegetarian pepper.";
         }
 
-        if ((ingre == 'T') || (ingre == 't'))
+        if ((ingredient == 'T') || (ingredient == 't'))
         {
-            cout << "Su pizza sera: Vegetariana de tofu.";
+            cout << "Your pizza will be: Vegetarian tofu.";
         }
     }
     
-    if ((tipo == 'N') || (tipo == 'n'))
+    if ((type == 'N') || (type == 'n'))
     {
-        cout << "Que ingrediente tendra su pizza normal:"<< endl;
-        cout << "Teclee (P) para peperoni o (J) para jamon o (S) para salmon: ";
-        cin >> ingre;
+        cout << "What ingredient will your normal pizza have?"<< endl;
+        cout << "Type (P) for pepperoni or (J) for ham or (S) for salmon: ";
+        cin >> ingredient;
 
-        if ((ingre == 'P') || (ingre == 'p'))
+        if ((ingredient == 'P') || (ingredient == 'p'))
         {
-            cout << "Su pizza sera: Normal de peperoni.";
+            cout << "Your pizza will be: Normal pepperoni.";
         }
 
-        if ((ingre == 'J') || (ingre == 'j'))
+        if ((ingredient == 'J') || (ingredient == 'j'))
         {
-            cout << "Su pizza sera: Normal de jamon.";
+            cout << "Your pizza will be: Normal ham.";
         }
 
-        if ((ingre == 'S') || (ingre == 's'))
+        if ((ingredient == 'S') || (ingredient == 's'))
         {
-            cout << "Su pizza sera: Normal de salmon.";
+            cout << "Your pizza will be: Normal salmon.";
         }
     }
 

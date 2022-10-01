@@ -2,28 +2,28 @@
 using namespace std;
 int main()
 {
-    float edad;
+    float age;
 
-    cout << "Ingrese su edad: ";
-    cin >> edad;
+    cout << "Enter your age: ";
+    cin >> age;
 
-    if (edad <= 4)
+    if (age <= 4)
     {
-        cout << "El presio de la sala de juegop es: $0";
+        cout << "The price of the game room is: $0";
     }
     
-    if (edad > 4)
+    if (age > 4)
     {
-        cout << "El presio de la sala de juegop es: $5";
+        cout << "The price of the game room is: $5";
     }
     else
     {
-        edad <= 18;
+        age <= 18;
     }
 
-    if (edad > 18)
+    if (age > 18)
     {
-        cout << "El presio de la sala de juegop es: $10";
+        cout << "The price of the game room is: $10";
     }
     
     return 0;

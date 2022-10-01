@@ -10,12 +10,12 @@ Last Modification:
 using namespace std;
 int main()
 {
-    int numero;
-    int dato = 1;
+    int number;
+    int data = 1;
 
-    cout << "Ingresa un numero entero: ";
-    if (numero == dato){
-        cout << "El numero es igual a dato" << endl;
+    cout << "Enter a whole number: ";
+    if (number == data){
+        cout << "Number is equal to data" << endl;
     }
     
     return 0;

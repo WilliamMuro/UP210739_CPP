@@ -10,16 +10,16 @@ Last Modification:
 using namespace std;
 int main()
 {
-    int numero;
-    int dato = 1;
+    int number;
+    int data = 1;
 
-    cout << "Ingresa un numero entero: ";
-    cin >> numero ;
-    if (numero == dato){
-        cout <<"El numero es igual a dato \n"<< endl;
+    cout << "Enter a whole number: ";
+    cin >> number;
+    if (number == data){
+        cout <<"Number is equal to data \n"<< endl;
     }
     else(
-        cout << "El numero es diferente del dato \n"<< endl
+        cout << "The number is different from the data \n"<< endl
     );
 
     return 0;
