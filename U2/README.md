@@ -79,11 +79,11 @@ The program works from three variables:<br>
 
 Through if and elese the program identifies the amount and assigns a percentage to obtain, performs a simple operation multiplying the amount variable with the percentage variable and at the end it prints the amount of tax to pay.<br>
 
-![):](Image/Screenshot(1).png)
-![):](Image/Screenshot(2).png)
-![):](Image/Screenshot(3).png)
-![):](Image/Screenshot(4).png)
-![):](Image/Screenshot(5).png)
+![):](/Image/screenshot(1).png)
+![):](/Image/Screenshot(2).png)
+![):](/Image/Screenshot(3).png)
+![):](/Image/Screenshot(4).png)
+![):](/Image/Screenshot(5).png)
 <br>
 
 #### Activity 2. (02_Benefits.cpp)
@@ -134,10 +134,10 @@ The program works from three variables:<br>
 
 Using an if, the program identifies the user's score and saves it in the level variable, performs a simple operation multiplying the payment and level variables, and finally prints the amount that the user will receive.<br>
 
-![):](Image/Screenshot(6).png)
-![):](Image/Screenshot(7).png)
-![):](Image/Screenshot(8).png)
-![):](Image/Screenshot(9).png)
+![):](/Image/Screenshot(6).png)
+![):](/Image/Screenshot(7).png)
+![):](/Image/Screenshot(8).png)
+![):](/Image/Screenshot(9).png)
 <br>
 
 #### Activity 3. (03_GamePrice.cpp)
@@ -176,10 +176,10 @@ int main()
 
 The program only works with the age variable, which is a number entered by the user, using if and else the program identifies to which age group the number belongs and prints the price to pay.<br>
 
-![):](Image/Screenshot(10).png)
-![):](Image/Screenshot(11).png)
-![):](Image/Screenshot(12).png)
-![):](Image/Screenshot(13).png)
+![):](/Image/Screenshot(10).png)
+![):](/Image/Screenshot(11).png)
+![):](/Image/Screenshot(12).png)
+![):](/Image/Screenshot(13).png)
 <br>
 
 #### Activity 4. (04_Pizza.cpp)
@@ -252,8 +252,8 @@ The program uses two variables:<br>
 
 The program through if asks the user to enter the type of pizza and the ingredient, at the end depending on the type and ingredient it prints what the pizza will be like.<br>
 
-![):](Image/Screenshot(14).png)
-![):](Image/Screenshot(15).png)
-![):](Image/Screenshot(16).png)
-![):](Image/Screenshot(17).png)
-![):](Image/Screenshot(18).png)
+![):](/Image/Screenshot(14).png)
+![):](/Image/Screenshot(15).png)
+![):](/Image/Screenshot(16).png)
+![):](/Image/Screenshot(17).png)
+![):](/Image/Screenshot(18).png)
