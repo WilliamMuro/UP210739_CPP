@@ -18,7 +18,7 @@ Works and programming practices will be uploaded in this repository.
 > This folder contains the practices of unit 2, for example program IfSimple.cpp first program in C++ using the If code.
 <br>
 
-![):](/Image/LWA.jpg)
+![):](/Image/CPP.jpg)
 <br>
 
 #### Social Network
