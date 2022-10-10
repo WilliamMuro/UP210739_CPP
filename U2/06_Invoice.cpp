@@ -16,7 +16,7 @@ int main()
         cout << "Price of products: $";
         cin >> price;
         invoice = quantity*price;
-        addition = addition + invoice;
+        addition += invoice;
 
     } while (quantity != 0);
 
