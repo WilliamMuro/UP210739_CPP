@@ -8,6 +8,7 @@ int main()
 
     cout << "Enter the amount to pay rent annually: ";
     cin >> amount;
+    cout << endl;
 
     if (amount >= 0) {
         percentage = 0.05;
@@ -44,11 +45,12 @@ int main()
     if (amount > 60000) {
         percentage = 0.45;
     }
-    cout << "Your tax is: "<< percentage << endl;
+    cout << " - Your tax is: "<< percentage << endl;
 
     taxes = amount*percentage;
 
-    cout << "The amount of tax to pay is: "<< taxes << endl;
+    cout << " - The amount of tax to pay is: "<< taxes << endl;
+    cout << endl;
 
     return 0;
 }

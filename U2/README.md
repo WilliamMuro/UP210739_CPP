@@ -251,9 +251,3 @@ The program uses two variables:<br>
 2. ingredient: saves the key entered by the user that determines the ingredient.<br>
 
 The program through if asks the user to enter the type of pizza and the ingredient, at the end depending on the type and ingredient it prints what the pizza will be like.<br>
-
-![):](/Image/Screenshot(14).png)
-![):](/Image/Screenshot(15).png)
-![):](/Image/Screenshot(16).png)
-![):](/Image/Screenshot(17).png)
-![):](/Image/Screenshot(18).png)
