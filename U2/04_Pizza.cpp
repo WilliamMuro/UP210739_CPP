@@ -7,7 +7,7 @@ int main()
 
     cout << "Welcome to the Pizza Bella Napoli"<< endl;
     cout << "What type of pizza do you want to order?"<< endl;
-    cout << "Type (V) to order vegetarian pizza or (N) for regular pizza: ";
+    cout << "Type (V) to order vegetarian pizza or (R) for regular pizza: ";
     cin >> type;
 
     if ((type == 'V') || (type == 'v'))
@@ -27,7 +27,7 @@ int main()
         }
     }
     
-    if ((type == 'N') || (type == 'n'))
+    if ((type == 'R') || (type == 'r'))
     {
         cout << "What ingredient will your normal pizza have?"<< endl;
         cout << "Type (P) for pepperoni or (H) for ham or (S) for salmon: ";
@@ -35,17 +35,17 @@ int main()
 
         if ((ingredient == 'P') || (ingredient == 'p'))
         {
-            cout << "Your pizza will be: Normal pepperoni.";
+            cout << "Your pizza will be: Regular pepperoni.";
         }
 
         if ((ingredient == 'H') || (ingredient == 'h'))
         {
-            cout << "Your pizza will be: Normal ham.";
+            cout << "Your pizza will be: Regular ham.";
         }
 
         if ((ingredient == 'S') || (ingredient == 's'))
         {
-            cout << "Your pizza will be: Normal salmon.";
+            cout << "Your pizza will be: Regular salmon.";
         }
     }
 
