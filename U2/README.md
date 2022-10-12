@@ -83,15 +83,19 @@ Through if and elese the program identifies the amount and assigns a percentage 
 
 Program screenshots:<br>
 
-![):](/Image/Captura desde 2022-10-12 08-09-18.png)
+![):](/Image/Screenshot08-09-18.png)
 <br>
-![):](/Image/Captura desde 2022-10-12 08-09-42.png)
+
+![):](/Image/Screenshot08-09-42.png)
 <br>
-![):](/Image/Captura desde 2022-10-12 08-10.05.png)
+
+![):](/Image/Screenshot08-10.05.png)
 <br>
-![):](/Image/Captura desde 2022-10-12 08-10-30.png)
+
+![):](/Image/Screenshot08-10-30.png)
 <br>
-![):](/Image/Captura desde 2022-10-12 08-11-00.png)
+
+![):](/Image/Screenshot08-11-00.png)
 <br>
 
 #### Activity 2. (02_Benefits.cpp)
@@ -148,13 +152,16 @@ Using an if, the program identifies the user's score and saves it in the level v
 
 Program screenshots:<br>
 
-![):](/Image/Captura desde 2022-10-12 08-18-04.png)
+![):](/Image/Screenshot08-18-04.png)
 <br>
-![):](/Image/Captura desde 2022-10-12 08-18-47.png)
+
+![):](/Image/Screenshot08-18-47.png)
 <br>
-![):](/Image/Captura desde 2022-10-12 08-19-13.png)
+
+![):](/Image/Screenshot08-19-13.png)
 <br>
-![):](/Image/Captura desde 2022-10-12 08-19-40.png)
+
+![):](/Image/Screenshot08-19-40.png)
 <br>
 
 #### Activity 3. (03_GamePrice.cpp)
@@ -198,13 +205,16 @@ The program only works with the age variable, which is a number entered by the u
 
 Program screenshots:<br>
 
-![):](/Image/Captura desde 2022-10-12 08-25-33.png)
+![):](/Image/Screenshot08-25-33.png)
 <br>
-![):](/Image/Captura desde 2022-10-12 08-25-55.png)
+
+![):](/Image/Screenshot08-25-55.png)
 <br>
-![):](/Image/Captura desde 2022-10-12 08-26-14.png)
+
+![):](/Image/Screenshot08-26-14.png)
 <br>
-![):](/Image/Captura desde 2022-10-12 08-26-31.png)
+
+![):](/Image/Screenshot08-26-31.png)
 <br>
 
 #### Activity 4. (04_Pizza.cpp)
@@ -288,13 +298,17 @@ The program through if asks the user to enter the type of pizza and the ingredie
 
 Program screenshots:<br>
 
-![):](/Image/Captura desde 2022-10-12 08-32-03.png)
+![):](/Image/Screenshot08-32-03.png)
 <br>
-![):](/Image/Captura desde 2022-10-12 08-32-26.png)
+
+![):](/Image/Screenshot08-32-26.png)
 <br>
-![):](/Image/Captura desde 2022-10-12 08-32-51.png)
+
+![):](/Image/Screenshot08-32-51.png)
 <br>
-![):](/Image/Captura desde 2022-10-12 08-33-12.png)
+
+![):](/Image/Screenshot08-33-12.png)
 <br>
-![):](/Image/Captura desde 2022-10-12 08-33-34.png)
+
+![):](/Image/Screenshot08-33-34.png)
 <br>
