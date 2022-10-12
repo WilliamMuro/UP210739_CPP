@@ -26,5 +26,14 @@ int main()
         cout << "|" << "\t" << number << "\t" << "*" << "\t" << counter << "\t" << "=" << "\t" << result << "\t" << "|" << endl;
     }
 
+    cout << "|";
+        
+    for (float table = 0; table < 47; table++)
+    {
+         cout << "-";
+    }
+    cout << "|" << endl;
+    cout << endl;
+
     return 0;
 }
