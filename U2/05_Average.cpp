@@ -24,10 +24,13 @@ int main()
             tempMax = temperature;
         }
     } while (counter <= 6);
-
+    
+    cout << endl;
     cout << "The average of the temperature today is: "<< tempAcum/6 << endl;
+    cout << endl;
     cout << "The maximum temperature is: "<< tempMax << endl;
     cout << "The minimum temperature is: "<< tempMin << endl;
+    cout << endl;
 
     return 0;
     

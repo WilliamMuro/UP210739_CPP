@@ -15,12 +15,15 @@ int main()
         cin >> quantity;
         cout << "Price of products: $";
         cin >> price;
+        cout << endl;
         invoice = quantity*price;
         addition += invoice;
 
     } while (quantity != 0);
-
-    cout << "The total account is: "<< addition << endl;
+    
+    cout << endl;
+    cout << "   The total account is: "<< addition << endl;
+    cout << endl;
 
     return 0;
     
