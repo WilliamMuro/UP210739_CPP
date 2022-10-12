@@ -83,15 +83,16 @@ Through if and elese the program identifies the amount and assigns a percentage 
 
 Program screenshots:<br>
 
-![):](/Image/Captura desde 2022-10-12 08-09-18.png)<br>
-
-![):](/Image/Captura desde 2022-10-12 08-09-42.png)<br>
-
-![):](/Image/Captura desde 2022-10-12 08-10.05.png)<br>
-
-![):](/Image/Captura desde 2022-10-12 08-10-30.png)<br>
-
-![):](/Image/Captura desde 2022-10-12 08-11-00.png)<br>
+![):](/Image/Captura desde 2022-10-12 08-09-18.png)
+<br>
+![):](/Image/Captura desde 2022-10-12 08-09-42.png)
+<br>
+![):](/Image/Captura desde 2022-10-12 08-10.05.png)
+<br>
+![):](/Image/Captura desde 2022-10-12 08-10-30.png)
+<br>
+![):](/Image/Captura desde 2022-10-12 08-11-00.png)
+<br>
 
 #### Activity 2. (02_Benefits.cpp)
 In a certain company, its employees are evaluated at the end of each year. The points that can be obtained in the evaluation start at 0.0 and can go up, translating into better benefits. The points you can get employees can be 0.0, 0.4, 0.6 or more, but not intermediate values between the figures mentioned.Below is a table with the levels corresponding to each score. The amount of money earned on each level is $2,400 multiplied by the level score.<br>
@@ -147,13 +148,14 @@ Using an if, the program identifies the user's score and saves it in the level v
 
 Program screenshots:<br>
 
-![):](/Image/Captura desde 2022-10-12 08-18-04.png)<br>
-
-![):](/Image/Captura desde 2022-10-12 08-18-47.png)<br>
-
-![):](/Image/Captura desde 2022-10-12 08-19-13.png)<br>
-
-![):](/Image/Captura desde 2022-10-12 08-19-40.png)<br>
+![):](/Image/Captura desde 2022-10-12 08-18-04.png)
+<br>
+![):](/Image/Captura desde 2022-10-12 08-18-47.png)
+<br>
+![):](/Image/Captura desde 2022-10-12 08-19-13.png)
+<br>
+![):](/Image/Captura desde 2022-10-12 08-19-40.png)
+<br>
 
 #### Activity 3. (03_GamePrice.cpp)
 Write a program for a company that has arcades for all ages and wants to automatically calculate the price to charge its customers for entering. The
@@ -196,13 +198,14 @@ The program only works with the age variable, which is a number entered by the u
 
 Program screenshots:<br>
 
-![):](/Image/Captura desde 2022-10-12 08-25-33.png)<br>
-
-![):](/Image/Captura desde 2022-10-12 08-25-55.png)<br>
-
-![):](/Image/Captura desde 2022-10-12 08-26-14.png)<br>
-
-![):](/Image/Captura desde 2022-10-12 08-26-31.png)<br>
+![):](/Image/Captura desde 2022-10-12 08-25-33.png)
+<br>
+![):](/Image/Captura desde 2022-10-12 08-25-55.png)
+<br>
+![):](/Image/Captura desde 2022-10-12 08-26-14.png)
+<br>
+![):](/Image/Captura desde 2022-10-12 08-26-31.png)
+<br>
 
 #### Activity 4. (04_Pizza.cpp)
 The Bella Napoli pizzeria offers vegetarian and non-vegetarian pizzas to its customers. The ingredients for each type of pizza are listed below.
@@ -285,12 +288,13 @@ The program through if asks the user to enter the type of pizza and the ingredie
 
 Program screenshots:<br>
 
-![):](/Image/Captura desde 2022-10-12 08-32-03.png)<br>
-
-![):](/Image/Captura desde 2022-10-12 08-32-26.png)<br>
-
-![):](/Image/Captura desde 2022-10-12 08-32-51.png)<br>
-
-![):](/Image/Captura desde 2022-10-12 08-33-12.png)<br>
-
-![):](/Image/Captura desde 2022-10-12 08-33-34.png)<br>
+![):](/Image/Captura desde 2022-10-12 08-32-03.png)
+<br>
+![):](/Image/Captura desde 2022-10-12 08-32-26.png)
+<br>
+![):](/Image/Captura desde 2022-10-12 08-32-51.png)
+<br>
+![):](/Image/Captura desde 2022-10-12 08-33-12.png)
+<br>
+![):](/Image/Captura desde 2022-10-12 08-33-34.png)
+<br>
