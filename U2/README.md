@@ -75,31 +75,31 @@ int main()
 
 The program works from three variables:<br>
 
-1. amount: the entered number of the amount of rent to pay.
-2. percentage: the exact value that multiplies the quantity variable.
-3. taxes: the number returned by the program.<br>
+ - amount: the entered number of the amount of rent to pay.
+ - percentage: the exact value that multiplies the quantity variable.
+ - taxes: the number returned by the program.<br>
 
 Through if and elese the program identifies the amount and assigns a percentage to obtain, performs a simple operation multiplying the amount variable with the percentage variable and at the end it prints the amount of tax to pay.<br>
 
 Program screenshots:<br>
 
-1.
+1. <br>
     ![ ): ](/Image/Screenshot08-09-18.png)
 <br>
 
-2.
+2. <br>
     ![ ): ](/Image/Screenshot08-09-42.png)
 <br>
 
-3.
+3. <br>
     ![ ): ](/Image/Screenshot08-10.05.png)
 <br>
 
-4.
+4. <br>
     ![ ): ](/Image/Screenshot08-10-30.png)
 <br>
 
-5.
+5. <br>
     ![ ): ](/Image/Screenshot08-11-00.png)
 <br>
 
@@ -149,27 +149,27 @@ int main()
 
 The program works from three variables:<br>
 
-1. level: value entered by the user depending on their score.
-2. payment: the total amount that depends on the score the user will get.
-3. amount: the amount that the user will receive at the end.<br>
+ - level: value entered by the user depending on their score.
+ - payment: the total amount that depends on the score the user will get.
+ - amount: the amount that the user will receive at the end.<br>
 
 Using an if, the program identifies the user's score and saves it in the level variable, performs a simple operation multiplying the payment and level variables, and finally prints the amount that the user will receive.<br>
 
 Program screenshots:<br>
 
-1.
+1. <br>
     ![ ): ](/Image/Screenshot08-18-04.png)
 <br>
 
-2.
+2. <br>
     ![ ): ](/Image/Screenshot08-18-47.png)
 <br>
 
-3.
+3. <br>
     ![ ): ](/Image/Screenshot08-19-13.png)
 <br>
 
-4.
+4. <br>
     ![ ): ](/Image/Screenshot08-19-40.png)
 <br>
 
@@ -214,19 +214,19 @@ The program only works with the age variable, which is a number entered by the u
 
 Program screenshots:<br>
 
-1.
+1. <br>
     ![ ): ](/Image/Screenshot08-25-33.png)
 <br>
 
-2.
+2. <br>
     ![ ): ](/Image/Screenshot08-25-55.png)
 <br>
 
-3.
+3. <br>
     ![ ): ](/Image/Screenshot08-26-14.png)
 <br>
 
-4.
+4. <br>
     ![ ): ](/Image/Screenshot08-26-31.png)
 <br>
 
@@ -304,29 +304,29 @@ int main()
 
 The program uses two variables:<br>
 
-1. type: stores the key entered by the user that determines the type of pizza.
-2. ingredient: saves the key entered by the user that determines the ingredient.<br>
+ - type: stores the key entered by the user that determines the type of pizza.
+ - ingredient: saves the key entered by the user that determines the ingredient.<br>
 
 The program through if asks the user to enter the type of pizza and the ingredient, at the end depending on the type and ingredient it prints what the pizza will be like.<br>
 
 Program screenshots:<br>
 
-1.
+1. <br>
     ![ ): ](/Image/Screenshot08-32-03.png)
 <br>
 
-2.
+2. <br>
     ![ ): ](/Image/Screenshot08-32-26.png)
 <br>
 
-3.
+3. <br>
     ![ ): ](/Image/Screenshot08-32-51.png)
 <br>
 
-4.
+4. <br>
     ![ ): ](/Image/Screenshot08-33-12.png)
 <br>
 
-5.
+5. <br>
     ![ ): ](/Image/Screenshot08-33-34.png)
 <br>
