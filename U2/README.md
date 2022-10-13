@@ -5,12 +5,13 @@ UNIT 2
 #### Activity 1. (01_Rent.cpp)
 The tax brackets for the declaration of income in a given country are the following:<br>
 
-Income tax rates<br>
-Less than $10,000 5%<br>
-Among $10,000 y $20,000 15%<br>
-Among $20,000 y $35,000 20%<br>
-Among $35,000 y $60,000 30%<br>
-More of $60,000 45%<br>
+**Income tax rates**<br>
+
+> Less than $10,000 5%<br>
+> Among $10,000 y $20,000 15%<br>
+> Among $20,000 y $35,000 20%<br>
+> Among $35,000 y $60,000 30%<br>
+> More of $60,000 45%<br>
 
 Write a program that asks the user for their annual income and shows the corresponding tax rate on the screen.<br>
 
@@ -81,7 +82,7 @@ The program works from three variables:<br>
 
 Through if and elese the program identifies the amount and assigns a percentage to obtain, performs a simple operation multiplying the amount variable with the percentage variable and at the end it prints the amount of tax to pay.<br>
 
-Program screenshots:<br>
+**Program screenshots:**<br>
 
 1. <br>
 ![):](/Image/Screenshot08-09-18.png)
@@ -106,11 +107,11 @@ Program screenshots:<br>
 #### Activity 2. (02_Benefits.cpp)
 In a certain company, its employees are evaluated at the end of each year. The points that can be obtained in the evaluation start at 0.0 and can go up, translating into better benefits. The points you can get employees can be 0.0, 0.4, 0.6 or more, but not intermediate values between the figures mentioned.Below is a table with the levels corresponding to each score. The amount of money earned on each level is $2,400 multiplied by the level score.<br>
 
-Level Score<br>
+**Level Score**<br>
 
-Unacceptable	0.0<br>
-Acceptable	0.4<br>
-Meritorious	0.6 or more<br>
+> Unacceptable	0.0<br>
+> Acceptable	0.4<br>
+> Meritorious	0.6 or more<br>
 
 Write a program that reads the user's score and indicates their level of performance, as well as the amount of money the user will receive.
 Thank you very much for choosing us! We look forward to serving you again.<br>
@@ -155,7 +156,7 @@ The program works from three variables:<br>
 
 Using an if, the program identifies the user's score and saves it in the level variable, performs a simple operation multiplying the payment and level variables, and finally prints the amount that the user will receive.<br>
 
-Program screenshots:<br>
+**Program screenshots:**<br>
 
 1. <br>
 ![):](/Image/Screenshot08-18-04.png)
@@ -174,9 +175,7 @@ Program screenshots:<br>
 <br>
 
 #### Activity 3. (03_GamePrice.cpp)
-Write a program for a company that has arcades for all ages and wants to automatically calculate the price to charge its customers for entering. The
-The program must ask the user for the customer's age and display the price of the ticket. Yes
-the client is under 4 years old can enter for free, if they are between 4 and 18 years old they must pay $5 and if they are over 18 years old, $10.<br>
+Write a program for a company that has arcades for all ages and wants to automatically calculate the price to charge its customers for entering. The program must ask the user for the customer's age and display the price of the ticket. Yes the client is under 4 years old can enter for free, if they are between 4 and 18 years old they must pay $5 and if they are over 18 years old, $10.<br>
 
 ```C++
 #include <iostream>
@@ -212,7 +211,7 @@ int main()
 
 The program only works with the age variable, which is a number entered by the user, using if and else the program identifies to which age group the number belongs and prints the price to pay.<br>
 
-Program screenshots:<br>
+**Program screenshots:**<br>
 
 1. <br>
 ![):](/Image/Screenshot08-25-33.png)
@@ -231,9 +230,11 @@ Program screenshots:<br>
 <br>
 
 #### Activity 4. (04_Pizza.cpp)
-The Bella Napoli pizzeria offers vegetarian and non-vegetarian pizzas to its customers. The ingredients for each type of pizza are listed below.
-- Vegetarian ingredients: Pepper and tofu.
-- Non-vegetarian ingredients: Pepperoni, Ham and Salmon.
+The Bella Napoli pizzeria offers vegetarian and non-vegetarian pizzas to its customers. The ingredients for each type of pizza are listed below.<br>
+
+> Vegetarian ingredients: Pepper and tofu.<br>
+> Non-vegetarian ingredients: Pepperoni, Ham and Salmon.<br>
+
 Write a program that asks the user if he wants a vegetarian pizza or not, and based on his answer shows him a menu with the ingredients available for him to choose from. You can only choose one ingredient besides the mozzarella and tomato that are in all the pizzas.<br>
 
 ```C++
@@ -309,7 +310,7 @@ The program uses two variables:<br>
 
 The program through if asks the user to enter the type of pizza and the ingredient, at the end depending on the type and ingredient it prints what the pizza will be like.<br>
 
-Program screenshots:<br>
+**Program screenshots:**<br>
 
 1. <br>
 ![):](/Image/Screenshot08-32-03.png)
