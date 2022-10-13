@@ -92,7 +92,7 @@ Program screenshots:<br>
 <br>
 
 3. <br>
-![):](/Image/Screenshot08-10.05.png)
+![):](/Image/Screenshot08-10-05.png)
 <br>
 
 4. <br>
