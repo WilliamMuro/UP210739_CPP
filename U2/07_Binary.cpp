@@ -7,6 +7,9 @@ int main()
     int number;
     string result;
 
+    cout << "   Decimal to Binary Converter"<< endl;
+    cout << endl;
+    cout << endl;
     cout << "Entry a number decimal: ";
     cin >> number;
     cout << endl;

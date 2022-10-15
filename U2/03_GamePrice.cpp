@@ -4,6 +4,9 @@ int main()
 {
     double age;
 
+    cout << "   GAME PRICE"<< endl;
+    cout << endl;
+    cout << endl;
     cout << "Enter your age: ";
     cin >> age;
     cout << endl;

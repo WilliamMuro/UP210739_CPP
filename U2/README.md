@@ -224,6 +224,9 @@ int main()
 {
     double age;
 
+    cout << "   GAME PRICE"<< endl;
+    cout << endl;
+    cout << endl;
     cout << "Enter your age: ";
     cin >> age;
     cout << endl;
@@ -261,25 +264,25 @@ The program only works with the age variable, which is a number entered by the u
 
 **1.** <br>
 <div align ="center">
-<img src="/Image/Screenshot08-25-33.png"/>
+<img src="/Image/Screenshot16-33-37.png"/>
 </div>
 <br>
 
 **2.** <br>
 <div align ="center">
-<img src="/Image/Screenshot08-25-55.png"/>
+<img src="/Image/Screenshot16-33-54.png"/>
 </div>
 <br>
 
 **3.** <br>
 <div align ="center">
-<img src="/Image/Screenshot08-26-14.png"/>
+<img src="/Image/Screenshot16-34-15.png"/>
 </div>
 <br>
 
 **4.** <br>
 <div align ="center">
-<img src="/Image/Screenshot08-26-31.png"/>
+<img src="/Image/Screenshot16-34-29.png"/>
 </div>
 <br>
 
@@ -301,11 +304,13 @@ int main()
     char type;
     char ingredient;
 
-    cout << "   Welcome to the Pizza Bella Napoli"<< endl;
+    cout << "       Welcome to the Pizza Bella Napoli"<< endl;
     cout << endl;
-    cout << "What type of pizza do you want to order?"<< endl;
+    cout << endl;
+    cout << endl;
+    cout << "   What type of pizza do you want to order?"<< endl;
     cout << "Type (V) to order vegetarian pizza or (R) for regular pizza."<< endl;
-    cout << "   R = ";
+    cout << "R = ";
     cin >> type;
     cout << endl;
 ```
@@ -315,48 +320,48 @@ int main()
 ```C++
     if ((type == 'V') || (type == 'v'))
     {
-        cout << "What ingredient will your vegetarian pizza have?"<< endl;
+        cout << "   What ingredient will your vegetarian pizza have?"<< endl;
         cout << "Type (P) for bell pepper or (T) for tofu."<< endl;
-        cout << "   R = ";
+        cout << "R = ";
         cin >> ingredient;
         cout << endl;
-
-        if ((ingredient == 'P') || (ingredient == 'p'))
-        {
-            cout << "Your pizza will be: Vegetarian pepper."<< endl;
-        }
-
-        if ((ingredient == 'T') || (ingredient == 't'))
-        {
-            cout << "Your pizza will be: Vegetarian tofu."<< endl;
-        }
-    }
 ```
 <br>
 
 ### Output
 ```C++
+        if ((ingredient == 'P') || (ingredient == 'p'))
+        {
+            cout << "   Your pizza will be: Vegetarian pepper."<< endl;
+        }
+
+        if ((ingredient == 'T') || (ingredient == 't'))
+        {
+            cout << "   Your pizza will be: Vegetarian tofu."<< endl;
+        }
+    }
+
     if ((type == 'R') || (type == 'r'))
     {
-        cout << "What ingredient will your normal pizza have?"<< endl;
+        cout << "   What ingredient will your normal pizza have?"<< endl;
         cout << "Type (P) for pepperoni or (H) for ham or (S) for salmon."<< endl;
-        cout << "   R = ";
+        cout << "R = ";
         cin >> ingredient;
         cout << endl;
 
         if ((ingredient == 'P') || (ingredient == 'p'))
         {
-            cout << "Your pizza will be: Regular pepperoni."<< endl;
+            cout << "   Your pizza will be: Regular pepperoni."<< endl;
         }
 
         if ((ingredient == 'H') || (ingredient == 'h'))
         {
-            cout << "Your pizza will be: Regular ham."<< endl;
+            cout << "   Your pizza will be: Regular ham."<< endl;
         }
 
         if ((ingredient == 'S') || (ingredient == 's'))
         {
-            cout << "Your pizza will be: Regular salmon."<< endl;
+            cout << "   Your pizza will be: Regular salmon."<< endl;
         }
     }
 
@@ -380,31 +385,31 @@ The program through if asks the user to enter the type of pizza and the ingredie
 
 **1.** <br>
 <div align ="center">
-<img src="/Image/Screenshot08-32-03.png"/>
+<img src="/Image/Screenshot16-40-54.png"/>
 </div>
 <br>
 
 **2.** <br>
 <div align ="center">
-<img src="/Image/Screenshot08-32-26.png"/>
+<img src="/Image/Screenshot16-41-17.png"/>
 </div>
 <br>
 
 **3.** <br>
 <div align ="center">
-<img src="/Image/Screenshot08-32-51.png"/>
+<img src="/Image/Screenshot16-41-33.png"/>
 </div>
 <br>
 
 **4.** <br>
 <div align ="center">
-<img src="/Image/Screenshot08-33-12.png"/>
+<img src="/Image/Screenshot16-41-57.png"/>
 </div>
 <br>
 
 **5.** <br>
 <div align ="center">
-<img src="/Image/Screenshot08-33-34.png"/>
+<img src="/Image/Screenshot16-42-14.png"/>
 </div>
 <br>
 
@@ -429,7 +434,7 @@ int main()
 
     do
     {
-        cout << "Type the temperature: ";
+        cout << "   Type the temperature: ";
         cin >> temperature;
         tempAcum += temperature;
         counter++;
@@ -450,8 +455,8 @@ int main()
     cout << endl;
     cout << "The average of the temperature today is: "<< tempAcum/6 << endl;
     cout << endl;
-    cout << "The maximum temperature is: "<< tempMax << endl;
-    cout << "The minimum temperature is: "<< tempMin << endl;
+    cout << " - The maximum temperature is: "<< tempMax << endl;
+    cout << " - The minimum temperature is: "<< tempMin << endl;
     cout << endl;
 
     return 0;
@@ -475,7 +480,13 @@ Using a variable do while, tempAcum stores the sum of each temperature that is e
 
 **1.** <br>
 <div align ="center">
-<img src="/Image/Screenshot09-37-44.png"/>
+<img src="/Image/Screenshot16-45-21.png"/>
+</div>
+<br>
+
+**2.** <br>
+<div align ="center">
+<img src="/Image/Screenshot16-45-46.png"/>
 </div>
 <br>
 
@@ -542,6 +553,12 @@ The program works by means of a (do, while) that asks the user to enter the numb
 </div>
 <br>
 
+**2.** <br>
+<div align ="center">
+<img src="/Image/Screenshot16-46-59.png"/>
+</div>
+<br>
+
 # 
 ## Activity 7. *(07_Binary.cpp)*
 Write a program that converts from binary to decimal, only for numbers.
@@ -559,6 +576,9 @@ int main()
     int number;
     string result;
 
+    cout << "   Decimal to Binary Converter"<< endl;
+    cout << endl;
+    cout << endl;
     cout << "Entry a number decimal: ";
     cin >> number;
     cout << endl;
@@ -610,7 +630,19 @@ The program uses a division on the entered number and depending on the remainder
 
 **1.** <br>
 <div align ="center">
-<img src="/Image/Screenshot10-23-50.png"/>
+<img src="/Image/Screenshot16-49-43.png"/>
+</div>
+<br>
+
+**2.** <br>
+<div align ="center">
+<img src="/Image/Screenshot16-52-17.png"/>
+</div>
+<br>
+
+**3.** <br>
+<div align ="center">
+<img src="/Image/Screenshot16-51-52.png"/>
 </div>
 <br>
 
@@ -682,6 +714,18 @@ One for is used to perform a specific number of times the multiplications to the
 **1.** <br>
 <div align ="center">
 <img src="/Image/Screenshot10-57-32.png"/>
+</div>
+<br>
+
+**2.** <br>
+<div align ="center">
+<img src="/Image/Screenshot16-54-39.png"/>
+</div>
+<br>
+
+**3.** <br>
+<div align ="center">
+<img src="/Image/Screenshot16-55-11.png"/>
 </div>
 <br>
 

@@ -11,7 +11,7 @@ int main()
     float tempAcum = 0;
     do
     {
-        cout << "Type the temperature: ";
+        cout << "   Type the temperature: ";
         cin >> temperature;
         tempAcum += temperature;
         counter++;
@@ -28,8 +28,8 @@ int main()
     cout << endl;
     cout << "The average of the temperature today is: "<< tempAcum/6 << endl;
     cout << endl;
-    cout << "The maximum temperature is: "<< tempMax << endl;
-    cout << "The minimum temperature is: "<< tempMin << endl;
+    cout << " - The maximum temperature is: "<< tempMax << endl;
+    cout << " - The minimum temperature is: "<< tempMin << endl;
     cout << endl;
 
     return 0;
