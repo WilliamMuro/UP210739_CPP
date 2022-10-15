@@ -3,16 +3,16 @@
 
 using namespace std;
 
-float solveEquation(float worth){
-    return pow(worth, 2) - 1 * (worth) - 12;
+double solveEquation(float worth){
+    return pow(worth,2)-worth-12;
 }
-int maint(){
-    float a;
-    float b;
-    float c = (a+b)/2;
-    float ya = solveEquation(a);
-    float yb = solveEquation(b);
-    float yc = solveEquation(c);
+int main(){
+    double a;
+    double b;
+    double c;
+    double ya;
+    double yb;
+    double yc;
 
     cout << "Enter the value of (a): ";
     cin >> a;
@@ -20,11 +20,22 @@ int maint(){
     cout << "Enter the value of (b): ";
     cin >> b;
     cout << endl;
-
-    while (/* condition */)
+    do
     {
-        /* code */
-    }
+        ya = solveEquation(a);
+        yb = solveEquation(b);
+        if ((yb > 0 && ya < 0) || (ya > 0 && yb < 0))
+        {
+            c = (ya+yb)/2;
+            yc = ya;
+            cout << c;
+        }
+        else{
+            cout << "There's no root between those two numbers";
+            break;
+        }
+        
+    } while (yc<=-0.01 || yc>=0.01);
 
     return 0;    
 }
