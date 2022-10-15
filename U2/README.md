@@ -93,7 +93,7 @@ Through if and elese the program identifies the amount and assigns a percentage 
 
 **1.** <br>
 <div align ="center">
-<img alt="100" height="100" src="Image/Screenshot08-09-18.png"/>
+<img src="/Image/Screenshot08-09-18.png"/>
 </div>
 <br>
 
