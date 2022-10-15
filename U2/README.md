@@ -2,9 +2,9 @@
 UNIT 2
 </h>
 
-## Activity 1. (01_Rent.cpp)
+##     Activity 1. (01_Rent.cpp)
 The tax brackets for the declaration of income in a given country are the following:<br>
-
+     
 **Income tax rates**<br>
 
 > Less than $10,000 5%<br>
@@ -83,9 +83,9 @@ int main()
 
 **The program works from three variables:**<br>
 
- - amount: the entered number of the amount of rent to pay.
- - percentage: the exact value that multiplies the quantity variable.
- - taxes: the number returned by the program.<br>
+ - **amount:* the entered number of the amount of rent to pay.
+ - **percentage:* the exact value that multiplies the quantity variable.
+ - **taxes:* the number returned by the program.<br>
 
 Through if and elese the program identifies the amount and assigns a percentage to obtain, performs a simple operation multiplying the amount variable with the percentage variable and at the end it prints the amount of tax to pay.<br>
 
@@ -99,30 +99,30 @@ Through if and elese the program identifies the amount and assigns a percentage 
 
 **2.** <br>
 <div align ="center">
-<img src="Image/Screenshot08-09-42.png"/>
+<img src="/Image/Screenshot08-09-42.png"/>
 </div>
 <br>
 
 **3.** <br>
 <div align ="center">
-<img src="Image/Screenshot08-10-05.png"/>
+<img src="/Image/Screenshot08-10-05.png"/>
 </div>
 <br>
 
 **4.** <br>
 <div align ="center">
-<img src="Image/Screenshot08-10-30.png"/>
+<img src="/Image/Screenshot08-10-30.png"/>
 </div>
 <br>
 
 **5.** <br>
 <div align ="center">
-<img src="Image/Screenshot08-11-00.png"/>
+<img src="/Image/Screenshot08-11-00.png"/>
 </div>
 <br>
 
 ## 
-## Activity 2. (02_Benefits.cpp)
+##     Activity 2. (02_Benefits.cpp)
 In a certain company, its employees are evaluated at the end of each year. The points that can be obtained in the evaluation start at 0.0 and can go up, translating into better benefits. The points you can get employees can be 0.0, 0.4, 0.6 or more, but not intermediate values between the figures mentioned.Below is a table with the levels corresponding to each score. The amount of money earned on each level is $2,400 multiplied by the level score.<br>
 
 **Level Score**<br>
@@ -171,9 +171,9 @@ int main()
 
 **The program works from three variables:**<br>
 
- - level: value entered by the user depending on their score.
- - payment: the total amount that depends on the score the user will get.
- - amount: the amount that the user will receive at the end.<br>
+ - **level:* value entered by the user depending on their score.
+ - **payment:* the total amount that depends on the score the user will get.
+ - **amount:* the amount that the user will receive at the end.<br>
 
 Using an if, the program identifies the user's score and saves it in the level variable, performs a simple operation multiplying the payment and level variables, and finally prints the amount that the user will receive.<br>
 
@@ -181,30 +181,30 @@ Using an if, the program identifies the user's score and saves it in the level v
 
 **1.** <br>
 <div align ="center">
-<img src="Image/Screenshot08-18-04.png"/>
+<img src="/Image/Screenshot08-18-04.png"/>
 </div>
 <br>
 
 **2.** <br>
 <div align ="center">
-<img src="Image/Screenshot08-18-47.png"/>
+<img src="/Image/Screenshot08-18-47.png"/>
 </div>
 <br>
 
 **3.** <br>
 <div align ="center">
-<img src="Image/Screenshot08-19-13.png"/>
+<img src="/Image/Screenshot08-19-13.png"/>
 </div>
 <br>
 
 **4.** <br>
 <div align ="center">
-<img src="Image/Screenshot08-19-40.png"/>
+<img src="/Image/Screenshot08-19-40.png"/>
 </div>
 <br>
 
 ## 
-## Activity 3. (03_GamePrice.cpp)
+##     Activity 3. (03_GamePrice.cpp)
 Write a program for a company that has arcades for all ages and wants to automatically calculate the price to charge its customers for entering. The program must ask the user for the customer's age and display the price of the ticket. Yes the client is under 4 years old can enter for free, if they are between 4 and 18 years old they must pay $5 and if they are over 18 years old, $10.<br>
 
 ```C++
@@ -248,30 +248,30 @@ The program only works with the age variable, which is a number entered by the u
 
 **1.** <br>
 <div align ="center">
-<img src="Image/Screenshot08-25-33.png"/>
+<img src="/Image/Screenshot08-25-33.png"/>
 </div>
 <br>
 
 **2.** <br>
 <div align ="center">
-<img src="Image/Screenshot08-25-55.png"/>
+<img src="/Image/Screenshot08-25-55.png"/>
 </div>
 <br>
 
 **3.** <br>
 <div align ="center">
-<img src="Image/Screenshot08-26-14.png"/>
+<img src="/Image/Screenshot08-26-14.png"/>
 </div>
 <br>
 
 **4.** <br>
 <div align ="center">
-<img src="Image/Screenshot08-26-31.png"/>
+<img src="/Image/Screenshot08-26-31.png"/>
 </div>
 <br>
 
 ## 
-## Activity 4. (04_Pizza.cpp)
+##     Activity 4. (04_Pizza.cpp)
 The Bella Napoli pizzeria offers vegetarian and non-vegetarian pizzas to its customers. The ingredients for each type of pizza are listed below.<br>
 
 > Vegetarian ingredients: Pepper and tofu.<br>
@@ -353,8 +353,8 @@ int main()
 
 **The program uses two variables:**<br>
 
- - type: stores the key entered by the user that determines the type of pizza.
- - ingredient: saves the key entered by the user that determines the ingredient.<br>
+ - **type:* stores the key entered by the user that determines the type of pizza.
+ - **ingredient:* saves the key entered by the user that determines the ingredient.<br>
 
 The program through if asks the user to enter the type of pizza and the ingredient, at the end depending on the type and ingredient it prints what the pizza will be like.<br>
 
@@ -362,36 +362,36 @@ The program through if asks the user to enter the type of pizza and the ingredie
 
 **1.** <br>
 <div align ="center">
-<img src="Image/Screenshot08-32-03.png"/>
+<img src="/Image/Screenshot08-32-03.png"/>
 </div>
 <br>
 
 **2.** <br>
 <div align ="center">
-<img src="Image/Screenshot08-32-26.png"/>
+<img src="/Image/Screenshot08-32-26.png"/>
 </div>
 <br>
 
 **3.** <br>
 <div align ="center">
-<img src="Image/Screenshot08-32-51.png"/>
+<img src="/Image/Screenshot08-32-51.png"/>
 </div>
 <br>
 
 **4.** <br>
 <div align ="center">
-<img src="Image/Screenshot08-33-12.png"/>
+<img src="/Image/Screenshot08-33-12.png"/>
 </div>
 <br>
 
 **5.** <br>
 <div align ="center">
-<img src="Image/Screenshot08-33-34.png"/>
+<img src="/Image/Screenshot08-33-34.png"/>
 </div>
 <br>
 
 ## 
-## Activity 5. (05_Average.cpp)
+##     Activity 5. (05_Average.cpp)
 Make a program in which 6 temperatures are entered and determine the average, the most
 the lowest and the highest.<br>
 
@@ -441,11 +441,11 @@ int main()
 
 **The program works through 5 variables:**<br>
 
- - counter:sets how many times the user can enter temperatures.
- - temperature: saves entered temperatures.
- - tempMax: the variable in which the maximum temperature is stored.
- - tempMin:the variable in which the minimum temperature is stored.
- - tempAcum: the variable in which the sum of the temperatures is stored.<br>
+ - **counter:* sets how many times the user can enter temperatures.
+ - **temperature:* saves entered temperatures.
+ - **tempMax:* the variable in which the maximum temperature is stored.
+ - **tempMin:* the variable in which the minimum temperature is stored.
+ - **tempAcum:* the variable in which the sum of the temperatures is stored.<br>
 
 Using a variable do while, tempAcum stores the sum of each temperature that is entered to obtain an average and print it and with one if the maximum temperature is detected and in another the minimum temperature, configuring a very large value to the minimum temperature so that the if always detects when a number is less than the previous one, and the maximum temperature is set to 0 so that the if always detects when an entered temperature is greater than the previous one.<br>
 
@@ -453,12 +453,12 @@ Using a variable do while, tempAcum stores the sum of each temperature that is e
 
 **1.** <br>
 <div align ="center">
-<img src="Image/Screenshot09-37-44.png"/>
+<img src="/Image/Screenshot09-37-44.png"/>
 </div>
 <br>
 
 ## 
-## Activity 6. (06_Incoice.cpp)
+##     Activity 6. (06_Incoice.cpp)
 Make a program that reads indefinitely quantities of products and their price, and at the end
 indicate the total of the invoice. To know that the purchase has been completed, you must
 enter a 0 in the amount.<br>
@@ -500,10 +500,10 @@ int main()
 ```
 **The program works through 4 variables:**<br>
 
- - quantity: save the number of products.
- - price: saves the price of the previously entered product.
- - invoice: save the price of the total number of products.
- - addition: save the sum of the price of the total products.<br>
+ - **quantity:* save the number of products.
+ - **price:* saves the price of the previously entered product.
+ - **invoice:* save the price of the total number of products.
+ - **addition:* save the sum of the price of the total products.<br>
 
 The program works by means of a (do, while) that asks the user to enter the number of products and their individual price until the user enters the number 0 in the number of products, and at the end multiplies the number of products by its price and add the multiplication of the products.<br>
 
@@ -511,12 +511,12 @@ The program works by means of a (do, while) that asks the user to enter the numb
 
 **1.** <br>
 <div align ="center">
-<img src="Image/Screenshot10-00-30.png"/>
+<img src="/Image/Screenshot10-00-30.png"/>
 </div>
 <br>
 
 ## 
-## Activity 7. (07_Binary.cpp)
+##     Activity 7. (07_Binary.cpp)
 Write a program that converts from binary to decimal, only for numbers.
 integers greater than 0. The result can be displayed as an integer variable or in a
 character set.<br>
@@ -569,8 +569,8 @@ int main()
 
 **The program works through three variables:**<br>
 
- - number: save the number entered by the user you want to convert.
- - result: save the operations that form the conversion to binary.<br>
+ - **number:* save the number entered by the user you want to convert.
+ - **result:* save the operations that form the conversion to binary.<br>
 
 The program uses a division on the entered number and depending on the remainder of the division, a number is stored in the result variable as characters to avoid adding the remainders and thus print the conversion correctly, using a while within an if and else if and inside do while.<br>
 
@@ -578,12 +578,12 @@ The program uses a division on the entered number and depending on the remainder
 
 **1.** <br>
 <div align ="center">
-<img src="Image/Screenshot10-23-50.png"/>
+<img src="/Image/Screenshot10-23-50.png"/>
 </div>
 <br>
 
 ## 
-## Activity 8. (07_Binary.cpp)
+##     Activity 8. (07_Binary.cpp)
 Write a program capable of asking the user to enter the number whose multiplication table he wants to see and what number the table will go to.<br>
 
 ```C++
@@ -636,21 +636,21 @@ int main()
 
 **The program uses 5 variables:**<br>
 
- - number: saves the number the user entered to view their table.
- - multiple: saves the number the user enters to determine the size of the table.
- - result: it is the result of each operation to be carried out on the table.
- - counter: establishes the times in which the operations are going to be carried out so that the table is printed correctly.
- - table: determines the shape of the table depending on the number entered.<br>
+ - **number:* saves the number the user entered to view their table.
+ - **multiple:* saves the number the user enters to determine the size of the table.
+ - **result:* it is the result of each operation to be carried out on the table.
+ - **counter:* establishes the times in which the operations are going to be carried out so that the table is printed correctly.
+ - **table:* determines the shape of the table depending on the number entered.<br>
 
-One (for) is used to perform a specific number of times the multiplications to the entered number and inside the (for) another (for) is used to format the table, also (\t) is used to create a tab that determines the space to use at the table.<br>
+One for is used to perform a specific number of times the multiplications to the entered number and inside the for another for is used to format the table, also \t is used to create a tab that determines the space to use at the table.<br>
 
 **Program screenshots:**<br>
 
 **1.** <br>
 <div align ="center">
-<img src="Image/Screenshot10-57-32.png"/>
+<img src="/Image/Screenshot10-57-32.png"/>
 </div>
 <br>
 
 ## 
-## Activity 9. (09_Bisection.cpp)
+##     Activity 9. (09_Bisection.cpp)
