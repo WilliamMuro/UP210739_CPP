@@ -92,33 +92,33 @@ Through if and elese the program identifies the amount and assigns a percentage 
 **Program screenshots:**<br>
 
 **1.** <br>
-<h1 align=center>
-![):](/Image/Screenshot08-09-18.png)
-</h>
+<div align ="center">
+<img src="Image/Screenshot08-09-18.png"/>
+</div>
 <br>
 
 **2.** <br>
-<h1 align=center>
-![):](/Image/Screenshot08-09-42.png)
-</h>
+<div align ="center">
+<img src="Image/Screenshot08-09-42.png"/>
+</div>
 <br>
 
 **3.** <br>
-<h1 align=center>
-![):](/Image/Screenshot08-10-05.png)
-</h>
+<div align ="center">
+<img src="Image/Screenshot08-10-05.png"/>
+</div>
 <br>
 
 **4.** <br>
-<h1 align=center>
-![):](/Image/Screenshot08-10-30.png)
-</h>
+<div align ="center">
+<img src="Image/Screenshot08-10-30.png"/>
+</div>
 <br>
 
 **5.** <br>
-<h1 align=center>
-![):](/Image/Screenshot08-11-00.png)
-</h>
+<div align ="center">
+<img src="Image/Screenshot08-11-00.png"/>
+</div>
 <br>
 
 ## 
@@ -180,27 +180,27 @@ Using an if, the program identifies the user's score and saves it in the level v
 **Program screenshots:**<br>
 
 **1.** <br>
-<h1 align=center>
-![):](/Image/Screenshot08-18-04.png)
-</h>
+<div align ="center">
+<img src="Image/Screenshot08-18-04.png"/>
+</div>
 <br>
 
 **2.** <br>
-<h1 align=center>
-![):](/Image/Screenshot08-18-47.png)
-</h>
+<div align ="center">
+<img src="Image/Screenshot08-18-47.png"/>
+</div>
 <br>
 
 **3.** <br>
-<h1 align=center>
-![):](/Image/Screenshot08-19-13.png)
-</h>
+<div align ="center">
+<img src="Image/Screenshot08-19-13.png"/>
+</div>
 <br>
 
 **4.** <br>
-<h1 align=center>
-![):](/Image/Screenshot08-19-40.png)
-</h>
+<div align ="center">
+<img src="Image/Screenshot08-19-40.png"/>
+</div>
 <br>
 
 ## 
@@ -247,27 +247,27 @@ The program only works with the age variable, which is a number entered by the u
 **Program screenshots:**<br>
 
 **1.** <br>
-<h1 align=center>
-![):](/Image/Screenshot08-25-33.png)
-</h>
+<div align ="center">
+<img src="Image/Screenshot08-25-33.png"/>
+</div>
 <br>
 
 **2.** <br>
-<h1 align=center>
-![):](/Image/Screenshot08-25-55.png)
-</h>
+<div align ="center">
+<img src="Image/Screenshot08-25-55.png"/>
+</div>
 <br>
 
 **3.** <br>
-<h1 align=center>
-![):](/Image/Screenshot08-26-14.png)
-</h>
+<div align ="center">
+<img src="Image/Screenshot08-26-14.png"/>
+</div>
 <br>
 
 **4.** <br>
-<h1 align=center>
-![):](/Image/Screenshot08-26-31.png)
-</h>
+<div align ="center">
+<img src="Image/Screenshot08-26-31.png"/>
+</div>
 <br>
 
 ## 
@@ -361,33 +361,33 @@ The program through if asks the user to enter the type of pizza and the ingredie
 **Program screenshots:**<br>
 
 **1.** <br>
-<h1 align=center>
-![):](/Image/Screenshot08-32-03.png)
-</h>
+<div align ="center">
+<img src="Image/Screenshot08-32-03.png"/>
+</div>
 <br>
 
 **2.** <br>
-<h1 align=center>
-![):](/Image/Screenshot08-32-26.png)
-</h>
+<div align ="center">
+<img src="Image/Screenshot08-32-26.png"/>
+</div>
 <br>
 
 **3.** <br>
-<h1 align=center>
-![):](/Image/Screenshot08-32-51.png)
-</h>
+<div align ="center">
+<img src="Image/Screenshot08-32-51.png"/>
+</div>
 <br>
 
 **4.** <br>
-<h1 align=center>
-![):](/Image/Screenshot08-33-12.png)
-</h>
+<div align ="center">
+<img src="Image/Screenshot08-33-12.png"/>
+</div>
 <br>
 
 **5.** <br>
-<h1 align=center>
-![):](/Image/Screenshot08-33-34.png)
-</h>
+<div align ="center">
+<img src="Image/Screenshot08-33-34.png"/>
+</div>
 <br>
 
 ## 
@@ -452,9 +452,9 @@ Using a variable do while, tempAcum stores the sum of each temperature that is e
 **Program screenshots:**<br>
 
 **1.** <br>
-<h1 align=center>
-![):](/Image/Screenshot09-37-44.png)
-</h>
+<div align ="center">
+<img src="Image/Screenshot09-37-44.png"/>
+</div>
 <br>
 
 ## 
@@ -510,9 +510,9 @@ The program works by means of a (do, while) that asks the user to enter the numb
 **Program screenshots:**<br>
 
 **1.** <br>
-<h1 align=center>
-![):](/Image/Screenshot10-00-30.png)
-</h>
+<div align ="center">
+<img src="Image/Screenshot10-00-30.png"/>
+</div>
 <br>
 
 ## 
@@ -577,9 +577,9 @@ The program uses a division on the entered number and depending on the remainder
 **Program screenshots:**<br>
 
 **1.** <br>
-<h1 align=center>
-![):](/Image/Screenshot10-23-50.png)
-</h>
+<div align ="center">
+<img src="Image/Screenshot10-23-50.png"/>
+</div>
 <br>
 
 ## 
@@ -647,9 +647,9 @@ One (for) is used to perform a specific number of times the multiplications to t
 **Program screenshots:**<br>
 
 **1.** <br>
-<h1 align=center>
-![):](/Image/Screenshot10-57-32.png)
-</h>
+<div align ="center">
+<img src="Image/Screenshot10-57-32.png"/>
+</div>
 <br>
 
 ## 
