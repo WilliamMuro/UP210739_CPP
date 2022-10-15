@@ -27,7 +27,10 @@ int main()
     cout << "Enter the amount to pay rent annually: ";
     cin >> amount;
     cout << endl;
+```
+<br>
 
+```C++
     if (amount >= 0) {
         percentage = 0.05;
     }
@@ -63,6 +66,10 @@ int main()
     if (amount > 60000) {
         percentage = 0.45;
     }
+```
+<br>
+
+```C++
     cout << " - Your tax is: "<< percentage << endl;
 
     taxes = amount*percentage;
@@ -74,7 +81,7 @@ int main()
 }
 ```
 
-The program works from three variables:<br>
+**The program works from three variables:**<br>
 
  - amount: the entered number of the amount of rent to pay.
  - percentage: the exact value that multiplies the quantity variable.
@@ -84,26 +91,37 @@ Through if and elese the program identifies the amount and assigns a percentage 
 
 **Program screenshots:**<br>
 
-1. <br>
+**1.** <br>
+<h1 align=center>
 ![):](/Image/Screenshot08-09-18.png)
+</h>
 <br>
 
-2. <br>
+**2.** <br>
+<h1 align=center>
 ![):](/Image/Screenshot08-09-42.png)
+</h>
 <br>
 
-3. <br>
+**3.** <br>
+<h1 align=center>
 ![):](/Image/Screenshot08-10-05.png)
+</h>
 <br>
 
-4. <br>
+**4.** <br>
+<h1 align=center>
 ![):](/Image/Screenshot08-10-30.png)
+</h>
 <br>
 
-5. <br>
+**5.** <br>
+<h1 align=center>
 ![):](/Image/Screenshot08-11-00.png)
+</h>
 <br>
 
+## 
 ## Activity 2. (02_Benefits.cpp)
 In a certain company, its employees are evaluated at the end of each year. The points that can be obtained in the evaluation start at 0.0 and can go up, translating into better benefits. The points you can get employees can be 0.0, 0.4, 0.6 or more, but not intermediate values between the figures mentioned.Below is a table with the levels corresponding to each score. The amount of money earned on each level is $2,400 multiplied by the level score.<br>
 
@@ -135,7 +153,10 @@ int main()
     cout << "Please indicate your performance level: ";
     cin >> level;
     cout << endl;
+```
+<br>
 
+```C++
     if ((level == 0.0) || (level == 0.4) || (level >= 0.6))
     {
         amount = payment*level;
@@ -148,7 +169,7 @@ int main()
 }
 ```
 
-The program works from three variables:<br>
+**The program works from three variables:**<br>
 
  - level: value entered by the user depending on their score.
  - payment: the total amount that depends on the score the user will get.
@@ -158,22 +179,31 @@ Using an if, the program identifies the user's score and saves it in the level v
 
 **Program screenshots:**<br>
 
-1. <br>
+**1.** <br>
+<h1 align=center>
 ![):](/Image/Screenshot08-18-04.png)
+</h>
 <br>
 
-2. <br>
+**2.** <br>
+<h1 align=center>
 ![):](/Image/Screenshot08-18-47.png)
+</h>
 <br>
 
-3. <br>
+**3.** <br>
+<h1 align=center>
 ![):](/Image/Screenshot08-19-13.png)
+</h>
 <br>
 
-4. <br>
+**4.** <br>
+<h1 align=center>
 ![):](/Image/Screenshot08-19-40.png)
+</h>
 <br>
 
+## 
 ## Activity 3. (03_GamePrice.cpp)
 Write a program for a company that has arcades for all ages and wants to automatically calculate the price to charge its customers for entering. The program must ask the user for the customer's age and display the price of the ticket. Yes the client is under 4 years old can enter for free, if they are between 4 and 18 years old they must pay $5 and if they are over 18 years old, $10.<br>
 
@@ -187,7 +217,10 @@ int main()
     cout << "Enter your age: ";
     cin >> age;
     cout << endl;
+```
+<br>
 
+```C++
     if (age <= 4)
     {
         cout << "The price of the game room is: $0"<< endl;
@@ -213,22 +246,31 @@ The program only works with the age variable, which is a number entered by the u
 
 **Program screenshots:**<br>
 
-1. <br>
+**1.** <br>
+<h1 align=center>
 ![):](/Image/Screenshot08-25-33.png)
+</h>
 <br>
 
-2. <br>
+**2.** <br>
+<h1 align=center>
 ![):](/Image/Screenshot08-25-55.png)
+</h>
 <br>
 
-3. <br>
+**3.** <br>
+<h1 align=center>
 ![):](/Image/Screenshot08-26-14.png)
+</h>
 <br>
 
-4. <br>
+**4.** <br>
+<h1 align=center>
 ![):](/Image/Screenshot08-26-31.png)
+</h>
 <br>
 
+## 
 ## Activity 4. (04_Pizza.cpp)
 The Bella Napoli pizzeria offers vegetarian and non-vegetarian pizzas to its customers. The ingredients for each type of pizza are listed below.<br>
 
@@ -252,7 +294,10 @@ int main()
     cout << "   R = ";
     cin >> type;
     cout << endl;
+```
+<br>
 
+```C++
     if ((type == 'V') || (type == 'v'))
     {
         cout << "What ingredient will your vegetarian pizza have?"<< endl;
@@ -271,7 +316,10 @@ int main()
             cout << "Your pizza will be: Vegetarian tofu."<< endl;
         }
     }
-    
+```
+<br>
+
+```C++
     if ((type == 'R') || (type == 'r'))
     {
         cout << "What ingredient will your normal pizza have?"<< endl;
@@ -303,7 +351,7 @@ int main()
 }
 ```
 
-The program uses two variables:<br>
+**The program uses two variables:**<br>
 
  - type: stores the key entered by the user that determines the type of pizza.
  - ingredient: saves the key entered by the user that determines the ingredient.<br>
@@ -312,26 +360,37 @@ The program through if asks the user to enter the type of pizza and the ingredie
 
 **Program screenshots:**<br>
 
-1. <br>
+**1.** <br>
+<h1 align=center>
 ![):](/Image/Screenshot08-32-03.png)
+</h>
 <br>
 
-2. <br>
+**2.** <br>
+<h1 align=center>
 ![):](/Image/Screenshot08-32-26.png)
+</h>
 <br>
 
-3. <br>
+**3.** <br>
+<h1 align=center>
 ![):](/Image/Screenshot08-32-51.png)
+</h>
 <br>
 
-4. <br>
+**4.** <br>
+<h1 align=center>
 ![):](/Image/Screenshot08-33-12.png)
+</h>
 <br>
 
-5. <br>
+**5.** <br>
+<h1 align=center>
 ![):](/Image/Screenshot08-33-34.png)
+</h>
 <br>
 
+## 
 ## Activity 5. (05_Average.cpp)
 Make a program in which 6 temperatures are entered and determine the average, the most
 the lowest and the highest.<br>
@@ -348,6 +407,7 @@ int main()
     float tempMax = 0;
     float tempMin = 999;
     float tempAcum = 0;
+
     do
     {
         cout << "Type the temperature: ";
@@ -363,7 +423,10 @@ int main()
             tempMax = temperature;
         }
     } while (counter <= 6);
-    
+```
+<br>
+
+```C++
     cout << endl;
     cout << "The average of the temperature today is: "<< tempAcum/6 << endl;
     cout << endl;
@@ -376,7 +439,7 @@ int main()
 }
 ```
 
-The program works through 5 variables:<br>
+**The program works through 5 variables:**<br>
 
  - counter:sets how many times the user can enter temperatures.
  - temperature: saves entered temperatures.
@@ -388,10 +451,13 @@ Using a variable do while, tempAcum stores the sum of each temperature that is e
 
 **Program screenshots:**<br>
 
-1. <br>
+**1.** <br>
+<h1 align=center>
 ![):](/Image/Screenshot09-37-44.png)
+</h>
 <br>
 
+## 
 ## Activity 6. (06_Incoice.cpp)
 Make a program that reads indefinitely quantities of products and their price, and at the end
 indicate the total of the invoice. To know that the purchase has been completed, you must
@@ -420,7 +486,10 @@ int main()
         addition += invoice;
 
     } while (quantity != 0);
-    
+```
+<br>
+
+```C++
     cout << endl;
     cout << "   The total account is: "<< addition << endl;
     cout << endl;
@@ -429,7 +498,7 @@ int main()
     
 }
 ```
-The program works through 4 variables:<br>
+**The program works through 4 variables:**<br>
 
  - quantity: save the number of products.
  - price: saves the price of the previously entered product.
@@ -440,10 +509,13 @@ The program works by means of a (do, while) that asks the user to enter the numb
 
 **Program screenshots:**<br>
 
-1. <br>
+**1.** <br>
+<h1 align=center>
 ![):](/Image/Screenshot10-00-30.png)
+</h>
 <br>
 
+## 
 ## Activity 7. (07_Binary.cpp)
 Write a program that converts from binary to decimal, only for numbers.
 integers greater than 0. The result can be displayed as an integer variable or in a
@@ -462,6 +534,10 @@ int main()
     cout << "Entry a number decimal: ";
     cin >> number;
     cout << endl;
+```
+<br>
+
+```C++
     do
     {
         if (number > 0)
@@ -480,7 +556,10 @@ int main()
         }
         
     } while (number < 0);
+```
+<br>
 
+```C++
     cout << "The number in binary is: "<< result << endl;
     cout << endl;
 
@@ -488,7 +567,7 @@ int main()
 }
 ```
 
-The program works through three variables:<br>
+**The program works through three variables:**<br>
 
  - number: save the number entered by the user you want to convert.
  - result: save the operations that form the conversion to binary.<br>
@@ -497,10 +576,13 @@ The program uses a division on the entered number and depending on the remainder
 
 **Program screenshots:**<br>
 
-1. <br>
+**1.** <br>
+<h1 align=center>
 ![):](/Image/Screenshot10-23-50.png)
+</h>
 <br>
 
+## 
 ## Activity 8. (07_Binary.cpp)
 Write a program capable of asking the user to enter the number whose multiplication table he wants to see and what number the table will go to.<br>
 
@@ -518,7 +600,10 @@ int main()
     cout << "Type how many times to multiply: ";
     cin >> multiple;
     cout << endl;
+```
+<br>
 
+```C++
     for (float counter = 1;counter <= multiple; counter++)
     {
         result = number*counter;
@@ -534,7 +619,10 @@ int main()
     }
 
     cout << "|";
-        
+```
+<br>
+
+```C++
     for (float table = 0; table < 47; table++)
     {
          cout << "-";
@@ -546,7 +634,7 @@ int main()
 }
 ```
 
-The program uses 5 variables:<br>
+**The program uses 5 variables:**<br>
 
  - number: saves the number the user entered to view their table.
  - multiple: saves the number the user enters to determine the size of the table.
@@ -558,6 +646,11 @@ One (for) is used to perform a specific number of times the multiplications to t
 
 **Program screenshots:**<br>
 
-1. <br>
+**1.** <br>
+<h1 align=center>
 ![):](/Image/Screenshot10-57-32.png)
+</h>
 <br>
+
+## 
+## Activity 9. (09_Bisection.cpp)
