@@ -1,6 +1,6 @@
-<h1 align=center>
-<sup>UPA Computer Systems Engineering 3° B</sup>
-</h1>
+<div align ="center">
+UPA <sup>|</sup> Computer Systems Engineering <sup>|</sup> 3° B
+</div>
 
 <h1 align=center>
 César William Muro Hernández<br>UP210739
@@ -10,7 +10,7 @@ César William Muro Hernández<br>UP210739
 ### Programming Matter Repository
 Works and programming practices will be uploaded in this repository.
 <br>
-
+<br>
 <br>
 
 # 
@@ -25,9 +25,9 @@ Works and programming practices will be uploaded in this repository.
 <img src="/Image/CPP.jpg"/>
 </div>
 <br>
-
+<br>
 <br>
 
 # 
 ### Social Network
-**_Instagram:_** https://www.instagram.com/2004stars/
+Instagram: https://www.instagram.com/2004stars/
