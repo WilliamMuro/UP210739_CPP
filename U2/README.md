@@ -2,7 +2,7 @@
 UNIT 2
 </h>
 
-#### Activity 1. (01_Rent.cpp)
+## Activity 1. (01_Rent.cpp)
 The tax brackets for the declaration of income in a given country are the following:<br>
 
 **Income tax rates**<br>
@@ -104,7 +104,7 @@ Through if and elese the program identifies the amount and assigns a percentage 
 ![):](/Image/Screenshot08-11-00.png)
 <br>
 
-#### Activity 2. (02_Benefits.cpp)
+## Activity 2. (02_Benefits.cpp)
 In a certain company, its employees are evaluated at the end of each year. The points that can be obtained in the evaluation start at 0.0 and can go up, translating into better benefits. The points you can get employees can be 0.0, 0.4, 0.6 or more, but not intermediate values between the figures mentioned.Below is a table with the levels corresponding to each score. The amount of money earned on each level is $2,400 multiplied by the level score.<br>
 
 **Level Score**<br>
@@ -174,7 +174,7 @@ Using an if, the program identifies the user's score and saves it in the level v
 ![):](/Image/Screenshot08-19-40.png)
 <br>
 
-#### Activity 3. (03_GamePrice.cpp)
+## Activity 3. (03_GamePrice.cpp)
 Write a program for a company that has arcades for all ages and wants to automatically calculate the price to charge its customers for entering. The program must ask the user for the customer's age and display the price of the ticket. Yes the client is under 4 years old can enter for free, if they are between 4 and 18 years old they must pay $5 and if they are over 18 years old, $10.<br>
 
 ```C++
@@ -229,7 +229,7 @@ The program only works with the age variable, which is a number entered by the u
 ![):](/Image/Screenshot08-26-31.png)
 <br>
 
-#### Activity 4. (04_Pizza.cpp)
+## Activity 4. (04_Pizza.cpp)
 The Bella Napoli pizzeria offers vegetarian and non-vegetarian pizzas to its customers. The ingredients for each type of pizza are listed below.<br>
 
 > Vegetarian ingredients: Pepper and tofu.<br>
@@ -330,4 +330,234 @@ The program through if asks the user to enter the type of pizza and the ingredie
 
 5. <br>
 ![):](/Image/Screenshot08-33-34.png)
+<br>
+
+## Activity 5. (05_Average.cpp)
+Make a program in which 6 temperatures are entered and determine the average, the most
+the lowest and the highest.<br>
+
+```C++
+#include<iostream>
+
+using namespace std;
+
+int main()
+{
+    int counter=1;
+    float temperature;
+    float tempMax = 0;
+    float tempMin = 999;
+    float tempAcum = 0;
+    do
+    {
+        cout << "Type the temperature: ";
+        cin >> temperature;
+        tempAcum += temperature;
+        counter++;
+        if (temperature <= tempMin)
+        {
+            tempMin = temperature;
+        }
+        if (temperature >= tempMax)
+        {
+            tempMax = temperature;
+        }
+    } while (counter <= 6);
+    
+    cout << endl;
+    cout << "The average of the temperature today is: "<< tempAcum/6 << endl;
+    cout << endl;
+    cout << "The maximum temperature is: "<< tempMax << endl;
+    cout << "The minimum temperature is: "<< tempMin << endl;
+    cout << endl;
+
+    return 0;
+    
+}
+```
+
+The program works through 5 variables:<br>
+
+ - counter:sets how many times the user can enter temperatures.
+ - temperature: saves entered temperatures.
+ - tempMax: the variable in which the maximum temperature is stored.
+ - tempMin:the variable in which the minimum temperature is stored.
+ - tempAcum: the variable in which the sum of the temperatures is stored.<br>
+
+Using a variable do while, tempAcum stores the sum of each temperature that is entered to obtain an average and print it and with one if the maximum temperature is detected and in another the minimum temperature, configuring a very large value to the minimum temperature so that the if always detects when a number is less than the previous one, and the maximum temperature is set to 0 so that the if always detects when an entered temperature is greater than the previous one.<br>
+
+**Program screenshots:**<br>
+
+1. <br>
+![):](/Image/Screenshot09-37-44.png)
+<br>
+
+## Activity 6. (06_Incoice.cpp)
+Make a program that reads indefinitely quantities of products and their price, and at the end
+indicate the total of the invoice. To know that the purchase has been completed, you must
+enter a 0 in the amount.<br>
+
+```C++
+#include<iostream>
+
+using namespace std;
+
+int main()
+{
+    float quantity;
+    float price;
+    float invoice;
+    float addition = 0;
+
+    do
+    {
+        cout << "Quantity of products: ";
+        cin >> quantity;
+        cout << "Price of products: $";
+        cin >> price;
+        cout << endl;
+        invoice = quantity*price;
+        addition += invoice;
+
+    } while (quantity != 0);
+    
+    cout << endl;
+    cout << "   The total account is: "<< addition << endl;
+    cout << endl;
+
+    return 0;
+    
+}
+```
+The program works through 4 variables:<br>
+
+ - quantity: save the number of products.
+ - price: saves the price of the previously entered product.
+ - invoice: save the price of the total number of products.
+ - addition: save the sum of the price of the total products.<br>
+
+The program works by means of a (do, while) that asks the user to enter the number of products and their individual price until the user enters the number 0 in the number of products, and at the end multiplies the number of products by its price and add the multiplication of the products.<br>
+
+**Program screenshots:**<br>
+
+1. <br>
+![):](/Image/Screenshot10-00-30.png)
+<br>
+
+## Activity 7. (07_Binary.cpp)
+Write a program that converts from binary to decimal, only for numbers.
+integers greater than 0. The result can be displayed as an integer variable or in a
+character set.<br>
+
+```C++
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int number;
+    string result;
+
+    cout << "Entry a number decimal: ";
+    cin >> number;
+    cout << endl;
+    do
+    {
+        if (number > 0)
+        {
+            while (number != 0)
+            {
+                result = (number%2 == 0)? "0" + result : "1" + result;
+
+                number /= 2;
+            }
+        }
+        else if (number == 0)
+        {
+            cout << "Greater than 0";
+            cout << endl;
+        }
+        
+    } while (number < 0);
+
+    cout << "The number in binary is: "<< result << endl;
+    cout << endl;
+
+    return 0;
+}
+```
+
+The program works through three variables:<br>
+
+ - number: save the number entered by the user you want to convert.
+ - result: save the operations that form the conversion to binary.<br>
+
+The program uses a division on the entered number and depending on the remainder of the division, a number is stored in the result variable as characters to avoid adding the remainders and thus print the conversion correctly, using a while within an if and else if and inside do while.<br>
+
+**Program screenshots:**<br>
+
+1. <br>
+![):](/Image/Screenshot10-23-50.png)
+<br>
+
+## Activity 8. (07_Binary.cpp)
+Write a program capable of asking the user to enter the number whose multiplication table he wants to see and what number the table will go to.<br>
+
+```C++
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float number, multiple, result, counter, table;
+
+    cout << "Type the number to multiply: ";
+    cin >> number;
+    cout << "Type how many times to multiply: ";
+    cin >> multiple;
+    cout << endl;
+
+    for (float counter = 1;counter <= multiple; counter++)
+    {
+        result = number*counter;
+        cout << "|";
+        
+        for (float table = 0; table < 47; table++)
+        {
+            cout << "-";
+        }
+        cout << "|";
+        cout << "\n";
+        cout << "|" << "\t" << number << "\t" << "*" << "\t" << counter << "\t" << "=" << "\t" << result << "\t" << "|" << endl;
+    }
+
+    cout << "|";
+        
+    for (float table = 0; table < 47; table++)
+    {
+         cout << "-";
+    }
+    cout << "|" << endl;
+    cout << endl;
+
+    return 0;
+}
+```
+
+The program uses 5 variables:<br>
+
+ - number: saves the number the user entered to view their table.
+ - multiple: saves the number the user enters to determine the size of the table.
+ - result: it is the result of each operation to be carried out on the table.
+ - counter: establishes the times in which the operations are going to be carried out so that the table is printed correctly.
+ - table: determines the shape of the table depending on the number entered.<br>
+
+One (for) is used to perform a specific number of times the multiplications to the entered number and inside the (for) another (for) is used to format the table, also (\t) is used to create a tab that determines the space to use at the table.<br>
+
+**Program screenshots:**<br>
+
+1. <br>
+![):](/Image/Screenshot10-57-32.png)
 <br>
