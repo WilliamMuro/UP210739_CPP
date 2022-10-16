@@ -31,7 +31,7 @@ int main(){
             cout << c;
         }
         else{
-            cout << "There's no root between those two numbers";
+            cout << "Numbers without roots.";
             break;
         }
         

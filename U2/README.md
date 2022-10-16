@@ -731,3 +731,73 @@ One for is used to perform a specific number of times the multiplications to the
 
 # 
 ## Activity 9. *(09_Bisection.cpp)*
+Write a program capable of finding the root between two numbers entered by the user.<br>
+
+### Input
+```C++
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+double solveEquation(float worth){
+    return pow(worth,2)-worth-12;
+}
+int main(){
+    double a;
+    double b;
+    double c;
+    double ya;
+    double yb;
+    double yc;
+
+    cout << "Enter the value of (a): ";
+    cin >> a;
+    cout << endl;
+    cout << "Enter the value of (b): ";
+    cin >> b;
+    cout << endl;
+```
+<br>
+
+### Process and output
+```C++
+    do
+    {
+        ya = solveEquation(a);
+        yb = solveEquation(b);
+        if ((yb > 0 && ya < 0) || (ya > 0 && yb < 0))
+        {
+            c = (ya+yb)/2;
+            yc = ya;
+            cout << c;
+        }
+        else{
+            cout << "Numbers without roots.";
+            break;
+        }
+        
+    } while (yc<=-0.01 || yc>=0.01);
+
+    return 0;    
+}
+```
+<br>
+
+**The program uses 8 variables:**<br>
+
+ - **_solverEquation:_** declared as double to save a math operation.
+ - **_worth:_** is declared for the number of the mathematical operation.
+ - **_a:_** saves the first number to enter whose root you want to know.
+ - **_b:_** save the second number to enter whose root you want to know.
+ - **_c:_** saves the result of the operation performed.
+ - **_ya:_** saves the result of the operation performed with the first number entered by the user.
+ - **_yb:_** saves the result of the operation performed with the second number entered by the user.
+ - **_yc:_** saves the final result that determines if there is a root and what it is.<br>
+
+The program performs a mathematical operation x^2-x-12 and asks the user to enter two numbers whose root he wants to find and in the variable c saves another operation (a+b)/2 that allows finding the root repeating until you reach the point closest to the root.<br>
+
+### Program screenshots:
+<br>
+
+**1.** <br>
