@@ -737,19 +737,23 @@ Write a program capable of finding the root between two numbers entered by the u
 ```C++
 #include <iostream>
 #include <cmath>
+#include <iomanip>
 
 using namespace std;
 
-double solveEquation(float worth){
-    return pow(worth,2)-worth-12;
+double solveEquation(float worth)
+{
+    return pow(worth, 2) - worth - 12;
 }
-int main(){
+int main()
+{
     double a;
     double b;
-    double c;
-    double ya;
-    double yb;
-    double yc;
+    double c = (a + b) / 2;
+    double ya = solveEquation(a);
+    double yb = solveEquation(b);
+    double yc = solveEquation(c);
+    float error = 0.01;
 
     cout << "Enter the value of (a): ";
     cin >> a;
@@ -757,29 +761,48 @@ int main(){
     cout << "Enter the value of (b): ";
     cin >> b;
     cout << endl;
-```
-<br>
 
-### Process and output
-```C++
+        cout << "\t" << "a" << "\t"
+        << "\t" << "b" << "\t"
+        << "\t" << "c" << "\t"
+        << "\t" << "ya" << "\t"
+        << "\t" << "yb" << "\t"
+        << "\t" << "yc" << "\t" << endl;
+    cout << "________________________________________________________________________________________________" << endl;
+    cout << endl;
+
     do
     {
+        c = (a + b) / 2;
         ya = solveEquation(a);
         yb = solveEquation(b);
-        if ((yb > 0 && ya < 0) || (ya > 0 && yb < 0))
+        yc = solveEquation(c);
+        if (ya * yc < 0)
         {
-            c = (ya+yb)/2;
-            yc = ya;
-            cout << c;
+            b = c;
         }
-        else{
-            cout << "Numbers without roots.";
-            break;
+        else if (yc * yb < 0)
+        {
+            a = c;
+        }
+        else
+        {
+            cout << "No root.";
         }
         
-    } while (yc<=-0.01 || yc>=0.01);
+        cout << fixed;
+        cout << setprecision(3) << "\t" << a << "\t"
+        << "\t" << b << "\t"
+        << "\t" << c << "\t"
+        << "\t" << ya << "\t"
+        << "\t" << yb << "\t"
+        << "\t" << yc << "\t" << endl;
 
-    return 0;    
+    } while (abs(yc) >= error);
+
+    cout << endl;
+
+    return 0;
 }
 ```
 <br>
@@ -793,7 +816,8 @@ int main(){
  - **_c:_** saves the result of the operation performed.
  - **_ya:_** saves the result of the operation performed with the first number entered by the user.
  - **_yb:_** saves the result of the operation performed with the second number entered by the user.
- - **_yc:_** saves the final result that determines if there is a root and what it is.<br>
+ - **_yc:_** saves the final result that determines if there is a root and what it is.
+ - **_error:_** determines when the program stops.<br>
 
 The program performs a mathematical operation x^2-x-12 and asks the user to enter two numbers whose root he wants to find and in the variable c saves another operation (a+b)/2 that allows finding the root repeating until you reach the point closest to the root.<br>
 
@@ -801,3 +825,7 @@ The program performs a mathematical operation x^2-x-12 and asks the user to ente
 <br>
 
 **1.** <br>
+<div align ="center">
+<img src="/Image/Screenshot10-35-24.png"/>
+</div>
+<br>

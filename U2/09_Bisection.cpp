@@ -1,18 +1,22 @@
 #include <iostream>
 #include <cmath>
+#include <iomanip>
 
 using namespace std;
 
-double solveEquation(float worth){
-    return pow(worth,2)-worth-12;
+double solveEquation(float worth)
+{
+    return pow(worth, 2) - worth - 12;
 }
-int main(){
+int main()
+{
     double a;
     double b;
-    double c;
-    double ya;
-    double yb;
-    double yc;
+    double c = (a + b) / 2;
+    double ya = solveEquation(a);
+    double yb = solveEquation(b);
+    double yc = solveEquation(c);
+    float error = 0.01;
 
     cout << "Enter the value of (a): ";
     cin >> a;
@@ -20,22 +24,46 @@ int main(){
     cout << "Enter the value of (b): ";
     cin >> b;
     cout << endl;
+
+        cout << "\t" << "a" << "\t"
+        << "\t" << "b" << "\t"
+        << "\t" << "c" << "\t"
+        << "\t" << "ya" << "\t"
+        << "\t" << "yb" << "\t"
+        << "\t" << "yc" << "\t" << endl;
+    cout << "________________________________________________________________________________________________" << endl;
+    cout << endl;
+
     do
     {
+        c = (a + b) / 2;
         ya = solveEquation(a);
         yb = solveEquation(b);
-        if ((yb > 0 && ya < 0) || (ya > 0 && yb < 0))
+        yc = solveEquation(c);
+        if (ya * yc < 0)
         {
-            c = (ya+yb)/2;
-            yc = ya;
-            cout << c;
+            b = c;
         }
-        else{
-            cout << "Numbers without roots.";
-            break;
+        else if (yc * yb < 0)
+        {
+            a = c;
         }
-        
-    } while (yc<=-0.01 || yc>=0.01);
+        else
+        {
+            cout << "No root.";
+        }
 
-    return 0;    
+        cout << fixed;
+        cout << setprecision(3) << "\t" << a << "\t"
+        << "\t" << b << "\t"
+        << "\t" << c << "\t"
+        << "\t" << ya << "\t"
+        << "\t" << yb << "\t"
+        << "\t" << yc << "\t" << endl;
+
+    } while (abs(yc) >= error);
+
+    cout << endl;
+
+    return 0;
 }
