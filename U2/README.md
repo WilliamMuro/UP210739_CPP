@@ -754,6 +754,7 @@ int main()
     double yb = solveEquation(b);
     double yc = solveEquation(c);
     float error = 0.01;
+    float noRoot = 0;
 
     cout << "Enter the value of (a): ";
     cin >> a;
@@ -761,7 +762,11 @@ int main()
     cout << "Enter the value of (b): ";
     cin >> b;
     cout << endl;
+```
+<br>
 
+### Process
+```C++
         cout << "\t" << "a" << "\t"
         << "\t" << "b" << "\t"
         << "\t" << "c" << "\t"
@@ -787,9 +792,14 @@ int main()
         }
         else
         {
+            noRoot = 1;
             cout << "No root.";
         }
-        
+```
+<br>
+
+### Output
+```C++
         cout << fixed;
         cout << setprecision(3) << "\t" << a << "\t"
         << "\t" << b << "\t"
@@ -798,7 +808,7 @@ int main()
         << "\t" << yb << "\t"
         << "\t" << yc << "\t" << endl;
 
-    } while (abs(yc) >= error);
+    } while ((abs(yc) >= error) && (noRoot != 1));
 
     cout << endl;
 
@@ -817,7 +827,8 @@ int main()
  - **_ya:_** saves the result of the operation performed with the first number entered by the user.
  - **_yb:_** saves the result of the operation performed with the second number entered by the user.
  - **_yc:_** saves the final result that determines if there is a root and what it is.
- - **_error:_** determines when the program stops.<br>
+ - **_error:_** determines when the program stops.\
+ - **_noRoot:_** determine if there is no root.<br>
 
 The program performs a mathematical operation x^2-x-12 and asks the user to enter two numbers whose root he wants to find and in the variable c saves another operation (a+b)/2 that allows finding the root repeating until you reach the point closest to the root.<br>
 
@@ -827,5 +838,11 @@ The program performs a mathematical operation x^2-x-12 and asks the user to ente
 **1.** <br>
 <div align ="center">
 <img src="/Image/Screenshot10-35-24.png"/>
+</div>
+<br>
+
+**2.** <br>
+<div align ="center">
+<img src="/Image/Screenshot10-20-49.png"/>
 </div>
 <br>

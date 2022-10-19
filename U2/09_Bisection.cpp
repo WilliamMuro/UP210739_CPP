@@ -17,6 +17,7 @@ int main()
     double yb = solveEquation(b);
     double yc = solveEquation(c);
     float error = 0.01;
+    float noRoot = 0;
 
     cout << "Enter the value of (a): ";
     cin >> a;
@@ -50,6 +51,7 @@ int main()
         }
         else
         {
+            noRoot = 1;
             cout << "No root.";
         }
 
@@ -61,7 +63,7 @@ int main()
         << "\t" << yb << "\t"
         << "\t" << yc << "\t" << endl;
 
-    } while (abs(yc) >= error);
+    } while ((abs(yc) >= error) && (noRoot != 1));
 
     cout << endl;
 
