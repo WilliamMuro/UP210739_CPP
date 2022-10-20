@@ -52,17 +52,28 @@ int main()
         else
         {
             noRoot = 1;
-            cout << "No root.";
         }
 
-        cout << fixed;
-        cout << setprecision(3) << "\t" << a << "\t"
-        << "\t" << b << "\t"
-        << "\t" << c << "\t"
-        << "\t" << ya << "\t"
-        << "\t" << yb << "\t"
-        << "\t" << yc << "\t" << endl;
-
+        if (noRoot == 0)
+        {
+            cout << fixed;
+            cout << setprecision(3) << "\t" << a << "\t"
+            << "\t" << b << "\t"
+            << "\t" << c << "\t"
+            << "\t" << ya << "\t"
+            << "\t" << yb << "\t"
+            << "\t" << yc << "\t" << endl;
+        }
+        else
+        {
+            cout << "\t" << "No root."
+            << "\t" << "No root."
+            << "\t" << "No root."
+            << "\t" << "No root."
+            << "\t" << "No root."
+            << "\t" << "No root." << endl;
+        }
+        
     } while ((abs(yc) >= error) && (noRoot != 1));
 
     cout << endl;

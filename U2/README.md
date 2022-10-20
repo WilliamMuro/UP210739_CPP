@@ -793,21 +793,32 @@ int main()
         else
         {
             noRoot = 1;
-            cout << "No root.";
         }
 ```
 <br>
 
 ### Output
 ```C++
-        cout << fixed;
-        cout << setprecision(3) << "\t" << a << "\t"
-        << "\t" << b << "\t"
-        << "\t" << c << "\t"
-        << "\t" << ya << "\t"
-        << "\t" << yb << "\t"
-        << "\t" << yc << "\t" << endl;
-
+        if (noRoot == 0)
+        {
+            cout << fixed;
+            cout << setprecision(3) << "\t" << a << "\t"
+            << "\t" << b << "\t"
+            << "\t" << c << "\t"
+            << "\t" << ya << "\t"
+            << "\t" << yb << "\t"
+            << "\t" << yc << "\t" << endl;
+        }
+        else
+        {
+            cout << "\t" << "No root."
+            << "\t" << "No root."
+            << "\t" << "No root."
+            << "\t" << "No root."
+            << "\t" << "No root."
+            << "\t" << "No root." << endl;
+        }
+        
     } while ((abs(yc) >= error) && (noRoot != 1));
 
     cout << endl;
@@ -837,12 +848,12 @@ The program performs a mathematical operation x^2-x-12 and asks the user to ente
 
 **1.** <br>
 <div align ="center">
-<img src="/Image/Screenshot10-35-24.png"/>
+<img src="/Image/Screenshot10-06-38.png"/>
 </div>
 <br>
 
 **2.** <br>
 <div align ="center">
-<img src="/Image/Screenshot10-20-49.png"/>
+<img src="/Image/Screenshot10-07-09.png"/>
 </div>
 <br>
