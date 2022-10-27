@@ -1,5 +1,5 @@
 /*
-Date: 10/24/22
+Date: 10/27/22
 Author: César William Muro Hernández
 Email: up210739@alumnos.upa.edu.mx
 Description: 
@@ -9,6 +9,11 @@ Last Modification:
 #include<iostream>
 
 using namespace std;
+
+int denominations[9]={500,200,100,50,20,10,5,2,1};
+
+int residue=0;
+for(int denominations=0; denominations<9; denominations++)
 
 void cnahge (int);
 void changecoins (int);
