@@ -10,11 +10,6 @@ Last Modification:
 
 using namespace std;
 
-int denominations[9]={500,200,100,50,20,10,5,2,1};
-
-int residue=0;
-for(int denominations=0; denominations<9; denominations++)
-
 void cnahge (int);
 void changecoins (int);
 void printchange (string);
@@ -81,6 +76,7 @@ void printchange (string type)
 
 int main()
 {
+        
     int money;
 
     cout << "   Money to enter: ";
