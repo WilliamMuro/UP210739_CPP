@@ -1,127 +1,384 @@
 /*
-Date: 10/28/2022
+Date:
 Author: César William Muro Hernández
 Email: up210739@alumnos.upa.edu.mx
-Description: 
-Last Modification: 
+Description:
+Last Modification:
 */
 
-#include<iostream>
+#include <iostream>
+#include <time.h>
 
 using namespace std;
 
-int play, row, col;
-
-char playArea[3][3] = {
-    {'1', '2', '3'},
-    {'4', '5', '6'},
-    {'7', '8', '9'},
-}
-
-void board(int);
-
-int selectPlay()
-{
-    do
-    {
-        cout << "Select the move: ";
-        cin >> play;
-    } while (play <= 9 && play > 0);
-    return play;
-}
-
-bool checkPlay(int play)
-{
-    if (play == 1)
-    {
-        row = 0;
-        col = 2;
-    }
-    else if (play == 2)
-    {
-        row = 0;
-        col = 6;
-    }
-    else if (play == 3)
-    {
-        row = 0;
-        col = 10;
-    }
-    else if (play == 4)
-    {
-        row = 4;
-        col = 2;
-    }
-    else if (play == 5)
-    {
-        row = 4;
-        col = 6;
-    }
-    else if (play == 6)
-    {
-        row = 4;
-        col = 10;
-    }
-    else if (play == 7)
-    {
-        row = 7;
-        col = 2;
-    }
-    else if (play == 8)
-    {
-        row = 7;
-        col = 6;
-    }
-    else if (play == 9)
-    {
-        row = 7;
-        col = 10;
-    }
-    if (playArea[row][col] == 'x' || playArea[row][col] == 'o')
-    {
-        return false;
-    }
-    else
-    {
-        return true;
-    }
-}
+void game(char board[3][3]);
+void enterMove(char board[3][3]);
+void boardBody(char board[3][3]);
+void entryMove(char board[3][3]);
+void computer (char board[3][3]);
+int winner (char board[3][3]);
 
 int main()
 {
-    void board(int)
-    {
-        for (int row = 0; row < 5; row++)
-        {
-            for (int col = 0; col < 9; col++)
-            {
-                if (row == 1 || row == 3)
-                {
-                    cout << "-";
-                }
-                else
-                {
-                    cout << " ";
-                }
-                if (col == 2 || col == 5)
-                {
-                    cout << "|";
-                }
-            }
-            cout << "\n";
-        }
-    }
+    char board[3][3];
+
+    game(board);
+
+    system("pause");
+
+    return 0;
+}
+
+void game(char board[3][3])
+{
+    int counter1=0, counter2;
+
+    enterMove(board);
 
     do
     {
-        bool invalidMove=true;
-        play=selectPlay();
-        invalidMove=checkPlay(play);
-        if (invalidMove==true)
+        system ("clear");
+        boardBody(board);
+
+        if (counter1 % 2 == 0)
         {
-            cout << "Try again.";
+            entryMove(board);
         }
-    } while (invalidMove==true);
-   
-   return 0;
+        else
+        {
+            computer(board);
+        }
+
+        counter2 = winner(board);
+        
+        counter1++;
+        
+    } while (counter1 <= 9 && counter2 == 2);
+
+    system ("clear");
+    boardBody(board);
+
+    if (counter2 == 0)
+    {
+        cout << endl << ",◦⁺˚*･༓☾ Win ☽༓･*˚⁺◦,"<< endl << endl;
+    }
+    else if (counter2 == 1)
+    {
+        cout << endl << ",◦⁺˚*･༓☾ Lose ☽༓･*˚⁺◦,"<< endl << endl;
+    }
+    else
+    {
+        cout << endl << ",◦⁺˚*･༓☾ None win ☽༓･*˚⁺◦,"<< endl << endl;
+    }
+    
+    
+    
+}
+
+void enterMove(char board[3][3])
+{
+    int counter1, counter2;
+    char entry;
+
+    entry = '1';
+
+    for (int counter1 = 0; counter1 < 3; counter1++)
+    {
+        for (int counter2 = 0; counter2 < 3; counter2++)
+        {
+            board[counter1][counter2] = entry++;
+        }
+    }
+}
+
+void entryMove(char board[3][3])
+{
+    int counter1, counter2, counter3;
+    char enter;
+
+    do
+    {
+        do
+        {
+            cout << endl << "Enter a movement: ";
+            cin >> board[3][3];
+            enter = board[3][3];
+        } while (enter < '1' || enter > '9');
+
+        counter3 = 0;
+
+        switch (enter)
+        {
+        case '1':
+        {
+            counter1 = 0;
+            counter2 = 0;
+            if (board[counter1][counter2] == 'X' || board[counter1][counter2] == 'O')
+            {
+                counter3 = 1;
+                cout << "Invalid movement!";
+            }
+            break;
+        }
+        case '2':
+        {
+            counter1 = 0;
+            counter2 = 1;
+            if (board[counter1][counter2] == 'X' || board[counter1][counter2] == 'O')
+            {
+                counter3 = 1;
+                cout << "Invalid movement!";
+            }
+            break;
+        }
+        case '3':
+        {
+            counter1 = 0;
+            counter2 = 2;
+            if (board[counter1][counter2] == 'X' || board[counter1][counter2] == 'O')
+            {
+                counter3 = 1;
+                cout << "Invalid movement!";
+            }
+            break;
+        }
+        case '4':
+        {
+            counter1 = 1;
+            counter2 = 0;
+            if (board[counter1][counter2] == 'X' || board[counter1][counter2] == 'O')
+            {
+                counter3 = 1;
+                cout << "Invalid movement!";
+            }
+            break;
+        }
+        case '5':
+        {
+            counter1 = 1;
+            counter2 = 1;
+            if (board[counter1][counter2] == 'X' || board[counter1][counter2] == 'O')
+            {
+                counter3 = 1;
+                cout << "Invalid movement!";
+            }
+            break;
+        }
+        case '6':
+        {
+            counter1 = 1;
+            counter2 = 2;
+            if (board[counter1][counter2] == 'X' || board[counter1][counter2] == 'O')
+            {
+                counter3 = 1;
+                cout << "Invalid movement!";
+            }
+            break;
+        }
+        case '7':
+        {
+            counter1 = 2;
+            counter2 = 0;
+            if (board[counter1][counter2] == 'X' || board[counter1][counter2] == 'O')
+            {
+                counter3 = 1;
+                cout << "Invalid movement!";
+            }
+            break;
+        }
+        case '8':
+        {
+            counter1 = 2;
+            counter2 = 1;
+            if (board[counter1][counter2] == 'X' || board[counter1][counter2] == 'O')
+            {
+                counter3 = 1;
+                cout << "Invalid movement!";
+            }
+            break;
+        }
+        case '9':
+        {
+            counter1 = 2;
+            counter2 = 2;
+            if (board[counter1][counter2] == 'X' || board[counter1][counter2] == 'O')
+            {
+                counter3 = 1;
+                cout << "Invalid movement!";
+            }
+            break;
+        }
+        }
+    } while (counter3 == 1);
+
+    board[counter1][counter2] = 'X';
+}
+
+void computer (char board[3][3]){
+    int counter1, counter2, number;
+    srand (time(NULL));
+
+    do
+    {
+        counter1 = rand() % 3;
+        counter2 = rand() % 3;
+        number = 0;
+        if (board[counter1][counter2] == 'X' || board[counter1][counter2] == 'O')
+        {
+            number = 1;
+        }
+        
+    } while (number == 1);
+
+    board[counter1][counter2] = 'O';
+}
+
+void boardBody(char board[3][3])
+{
+    int counter1, counter2;
+
+    cout << endl << ",◦⁺˚*･༓☾ Cat game ☽༓･*˚⁺◦," << endl << endl;
+
+    for (int counter1 = 0; counter1 < 3; counter1++)
+    {
+        cout << "        |     |     " << endl;
+        for (int counter2 = 0; counter2 < 3; counter2++)
+        {
+            if (counter2 == 0)
+            {
+                cout << "     " << board[counter1][counter2] << "  |";
+            }
+
+            else if (counter2 == 1)
+            {
+                cout << "  " << board[counter1][counter2] << "  |";
+            }
+            else
+            {
+                cout << "  " << board[counter1][counter2] << "  ";
+            }
+        }
+
+        if (counter1 < 2)
+        {
+            cout << endl
+                 << "   _____|_____|_____" << endl;
+        }
+        else
+        {
+            cout << endl
+                 << "        |     |     "<< endl;
+        }
+    }
+}
+
+int winner (char board[3][3]){
+    if (board[0][0] == 'X' || board[0][0] == 'O')
+    {
+        if (board[0][0] == board[0][1] && board[0][0] == board[0][2])
+        {
+            if (board[0][0] == 'X')
+            {
+                return 0;
+            }
+            else
+            {
+                return 1;
+            }
+            
+        }
+        if (board[0][0] == board[1][0] && board[0][0] == board[2][0])
+        {
+            if (board[0][0] == 'X')
+            {
+                return 0;
+            }
+            else
+            {
+                return 1;
+            }
+        }
+
+    }
+
+    if (board[1][1] == 'X' || board[1][1] == 'O')
+    {
+        if (board[1][1] == board[0][1] && board[1][1] == board[2][2])
+        {
+            if (board[1][1] == 'X')
+            {
+                return 0;
+            }
+            else
+            {
+                return 1;
+            }
+            
+        }
+        if (board[1][1] == board[0][1] && board[1][1] == board[2][1])
+        {
+            if (board[0][0] == 'X')
+            {
+                return 0;
+            }
+            else
+            {
+                return 1;
+            }
+        }
+        if (board[1][1] == board[1][0] && board[1][1] == board[1][2])
+        {
+            if (board[0][0] == 'X')
+            {
+                return 0;
+            }
+            else
+            {
+                return 1;
+            }
+        }
+        if (board[1][1] == board[0][2] && board[1][1] == board[2][0])
+        {
+            if (board[0][0] == 'X')
+            {
+                return 0;
+            }
+            else
+            {
+                return 1;
+            }
+        }
+        
+    }
+
+    if (board[2][2] == 'X' || board[2][2] == 'O')
+    {
+        if (board[2][2] == board[2][0] && board[2][2] == board[2][1])
+        {
+            if (board[0][0] == 'X')
+            {
+                return 0;
+            }
+            else
+            {
+                return 1;
+            }
+            
+        }
+        if (board[2][2] == board[0][2] && board[2][2] == board[1][2])
+        {
+            if (board[0][0] == 'X')
+            {
+                return 0;
+            }
+            else
+            {
+                return 1;
+            }
+        }
+
+    }
+
+    return 2;
+    
 }
