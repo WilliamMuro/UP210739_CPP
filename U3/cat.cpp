@@ -18,17 +18,6 @@ void entryMove(char board[3][3]);
 void computer (char board[3][3]);
 int winner (char board[3][3]);
 
-int main()
-{
-    char board[3][3];
-
-    game(board);
-
-    system("pause");
-
-    return 0;
-}
-
 void game(char board[3][3])
 {
     int counter1=0, counter2;
@@ -53,16 +42,16 @@ void game(char board[3][3])
         
         counter1++;
         
-    } while (counter1 <= 9 && counter2 == 2);
+    } while (counter1 <= 9 && counter2 == 3);
 
     system ("clear");
     boardBody(board);
 
-    if (counter2 == 0)
+    if (counter2 < 2)
     {
         cout << endl << ",◦⁺˚*･༓☾ Win ☽༓･*˚⁺◦,"<< endl << endl;
     }
-    else if (counter2 == 1)
+    else if (counter2 > 1)
     {
         cout << endl << ",◦⁺˚*･༓☾ Lose ☽༓･*˚⁺◦,"<< endl << endl;
     }
@@ -279,106 +268,115 @@ int winner (char board[3][3]){
         {
             if (board[0][0] == 'X')
             {
-                return 0;
-            }
-            else
-            {
                 return 1;
+            }
+            else if (board[0][0] == 'O')
+            {
+                return 2;
             }
             
         }
-        if (board[0][0] == board[1][0] && board[0][0] == board[2][0])
+        else if (board[0][0] == board[1][0] && board[0][0] == board[2][0])
         {
             if (board[0][0] == 'X')
             {
-                return 0;
-            }
-            else
-            {
                 return 1;
+            }
+            else if (board[0][0] == 'O')
+            {
+                return 2;
             }
         }
 
     }
-
-    if (board[1][1] == 'X' || board[1][1] == 'O')
+    else if (board[1][1] == 'X' || board[1][1] == 'O')
     {
         if (board[1][1] == board[0][1] && board[1][1] == board[2][2])
         {
             if (board[1][1] == 'X')
             {
-                return 0;
-            }
-            else
-            {
                 return 1;
+            }
+            else if (board[1][1] == 'O')
+            {
+                return 2;
             }
             
         }
-        if (board[1][1] == board[0][1] && board[1][1] == board[2][1])
+        else if (board[1][1] == board[0][1] && board[1][1] == board[2][1])
         {
-            if (board[0][0] == 'X')
-            {
-                return 0;
-            }
-            else
+            if (board[1][1] == 'X')
             {
                 return 1;
+            }
+            else if (board[1][1] == 'O')
+            {
+                return 2;
             }
         }
-        if (board[1][1] == board[1][0] && board[1][1] == board[1][2])
+        else if (board[1][1] == board[1][0] && board[1][1] == board[1][2])
         {
-            if (board[0][0] == 'X')
-            {
-                return 0;
-            }
-            else
+            if (board[1][1] == 'X')
             {
                 return 1;
+            }
+            else if (board[1][1] == 'O')
+            {
+                return 2;
             }
         }
-        if (board[1][1] == board[0][2] && board[1][1] == board[2][0])
+        else if (board[1][1] == board[0][2] && board[1][1] == board[2][0])
         {
-            if (board[0][0] == 'X')
-            {
-                return 0;
-            }
-            else
+            if (board[1][1] == 'X')
             {
                 return 1;
+            }
+            else if (board[1][1] == 'O')
+            {
+                return 2;
             }
         }
         
     }
-
-    if (board[2][2] == 'X' || board[2][2] == 'O')
+    else if (board[2][2] == 'X' || board[2][2] == 'O')
     {
         if (board[2][2] == board[2][0] && board[2][2] == board[2][1])
         {
-            if (board[0][0] == 'X')
-            {
-                return 0;
-            }
-            else
+            if (board[2][2] == 'X')
             {
                 return 1;
+            }
+            else if (board[2][2] == 'O')
+            {
+                return 2;
             }
             
         }
-        if (board[2][2] == board[0][2] && board[2][2] == board[1][2])
+        else if (board[2][2] == board[0][2] && board[2][2] == board[1][2])
         {
-            if (board[0][0] == 'X')
-            {
-                return 0;
-            }
-            else
+            if (board[2][2] == 'X')
             {
                 return 1;
+            }
+            else if (board[2][2] == 'O')
+            {
+                return 2;
             }
         }
 
     }
 
-    return 2;
+    return 3;
     
+}
+
+int main()
+{
+    char board[3][3];
+
+    game(board);
+
+    system("pause");
+
+    return 0;
 }
