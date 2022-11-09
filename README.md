@@ -18,7 +18,7 @@ Works and programming practices will be uploaded in this repository.
 - U2 <sup>[Click here to see.](https://github.com/UP210739/UP210739_CPP/tree/main/U2)</sup>
 > This folder contains the practices of unit 2, for example program [04_Pizza.cpp](https://github.com/UP210739/UP210739_CPP/blob/main/U2/04_Pizza.cpp) simulates the web interface of a pizzeria and asks for the type of pizza and the ingredients to order.
 - U3 <sup>[Click here to see.](https://github.com/UP210739/UP210739_CPP/tree/main/U3)</sup>
-> This folder contains the practices of unit 2, for example program [cat.pp](https://github.com/UP210739/UP210739_CPP/blob/main/U3/cat.cpp) a simple game of placing "x" in an array trying to make a continuous line of "x".
+> This folder contains the practices of unit 2, for example program [Cat.pp](https://github.com/UP210739/UP210739_CPP/blob/main/U3/Cat.cpp) a simple game of placing "x" in an array trying to make a continuous line of "x".
 <br>
 
 <div align ="center">
