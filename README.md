@@ -4,7 +4,8 @@
 
 ## 
 <h1 align=center>
-César William Muro Hernández<br>UP210739<br> 
+César William Muro Hernández<br>UP210739<br><br>
+
 </h1>
 <br>
 
@@ -22,8 +23,7 @@ Works and programming practices will be uploaded in this repository.
 <br>
 
 <div align ="center">
-ignore this photo
-<br>
+ignore this photo<br><br>
 
 <img src="/Image/FightClub.jpg"/>
 </div>
