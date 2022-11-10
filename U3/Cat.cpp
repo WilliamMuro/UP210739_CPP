@@ -376,7 +376,5 @@ int main()
 
     game(board);
 
-    system("pause");
-
     return 0;
 }
