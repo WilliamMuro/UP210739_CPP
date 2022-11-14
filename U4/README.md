@@ -1,11 +1,7 @@
 <h1 align=center>
-<sup>UPA</sup>
+<sup>UPA<br><sub>Computer Systems Engineering</sub></sup>
 </h1>
 <br>
-
-<div align ="center">
-Computer Systems Engineering
-</div>
 
 ## 
 <h1 align=center>
