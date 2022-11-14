@@ -1,9 +1,7 @@
 <h1 align=center>
-<sup>UPA<br><sub>Computer Systems Engineering</sub></sup>
+<sub>UPA<br><sup>Computer Systems Engineering</sup></sub>
 </h1>
 <br>
-
-## 
 <h1 align=center>
 Connect 4
 </h1>
