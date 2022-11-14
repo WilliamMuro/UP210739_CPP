@@ -1,5 +1,5 @@
 <h1 align=center>
-UPA
+<sup>UPA</sup>
 </h1>
 <br>
 
