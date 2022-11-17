@@ -1,6 +1,6 @@
 <h1 align=center>
 UNIT 2
-</h>
+</h1>
 
 ## Activity 1. *(01_Rent.cpp)*
 The tax brackets for the declaration of income in a given country are the following:<br>
