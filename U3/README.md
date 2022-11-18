@@ -11,10 +11,10 @@ UNIT 3
 </h1>
 <br>
 
-1. **Execution instructions.** <sub>Instructions for execution, use and general considerations.</sub>
-2. **Flowchart.**
-3. **Development and explanation.** <sub>Execution instructions of code execution.</sub>
-4. **Conclusion.**
+1. Execution instructions. <sub>Instructions for execution, use and general considerations.</sub>
+2. Flowchart.
+3. Development and explanation. <sub>Execution instructions of code execution.</sub>
+4. Conclusion.
 <br>
 
 # 
@@ -25,7 +25,7 @@ Start running the Cat Game program, which is just user vs. computer, the program
 #
 ### 2. Flowchart.
 <div align ="center">
-<img src="/Image/code2flow_BynvqX.png"/><br><img src="/Image/code2flow_BynvqX(1).png"/><br><img src="/Image/code2flow_BynvqX(2).png"/><br><img src="/Image/code2flow_BynvqX(3).png"/><br><img src="/Image/code2flow_BynvqX(4).png"/><br><img src="/Image/code2flow_BynvqX(5).png"/>
+<img src="/Image/code2flow_BynvqX.png"/><br><img src="/Image/code2flow_BynvqX%20(1).png"/><br><img src="/Image/code2flow_BynvqX%20(2).png"/><br><img src="/Image/code2flow_BynvqX%20(3).png"/><br><img src="/Image/code2flow_BynvqX%20(4).png"/><br><img src="/Image/code2flow_BynvqX%20(5).png"/>
 </div>
 <br>
 
