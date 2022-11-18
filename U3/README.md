@@ -11,9 +11,9 @@ UNIT 3
 </h1>
 <br>
 
-1. Execution instructions. <sub>Instructions for execution, use and general considerations.</sub>
+1. Execution instructions. (Instructions for execution, use and general considerations).
 2. Flowchart.
-3. Development and explanation. <sub>Execution instructions of code execution.</sub>
+3. Development and explanation. (Execution instructions of code execution).
 4. Conclusion.
 <br>
 
