@@ -31,4 +31,4 @@ ignore this photo<br><br>
 
 # 
 ### Social Network
-:camera: Instagram: https://www.instagram.com/williammurohdez/
+:camera: Instagram: https://www.instagram.com/_azstro/
