@@ -3,12 +3,8 @@ UNIT 3
 </h1>
 <br>
 
-### README.md from unit 3
-- In this folder you will find the game "Cat Game" [(Cat.pp)](https://github.com/UP210739/UP210739_CPP/blob/main/U3/Cat.cpp) written in the C++ programming language.
-<br>
-
-<br>
-
+### README.md from Unit 3
+In this folder you will find the game "Cat Game" [(Cat.pp)](https://github.com/UP210739/UP210739_CPP/blob/main/U3/Cat.cpp) written in the C++ programming language.
 <br>
 
 <br>
@@ -21,13 +17,18 @@ UNIT 3
 </h1>
 <br>
 
-> [Execution instructions. (Instructions for execution, use and general considerations).](https://github.com/UP210739/UP210739_CPP/tree/main/U3#execution-instructions)<br>
+- [Execution instructions. (Instructions for execution, use and general considerations).](https://github.com/UP210739/UP210739_CPP/tree/main/U3#execution-instructions)
+<br>
 
-> [Flowchart.](https://github.com/UP210739/UP210739_CPP/tree/main/U3#flowchart)<br>
+- [Flowchart.](https://github.com/UP210739/UP210739_CPP/tree/main/U3#flowchart)
+<br>
 
-> [Development and explanation. (Execution instructions of code execution).](https://github.com/UP210739/UP210739_CPP/tree/main/U3#development-and-explanation)<br>
+- [Development and explanation. (Execution instructions of code execution).](https://github.com/UP210739/UP210739_CPP/tree/main/U3#development-and-explanation)
+<br>
 
-> [Conclusion.](https://github.com/UP210739/UP210739_CPP/tree/main/U3#conclusion)
+- [Conclusion.](https://github.com/UP210739/UP210739_CPP/tree/main/U3#conclusion)
+<br>
+
 <br>
 
 <br>
@@ -47,6 +48,8 @@ Execution instructions
 Start running the Cat Game program, which is just user vs. computer, the program will ask the user to enter the number of the box that the **X** will be placed on and as soon as a box is selected, the an **X** will appear will be printed and the **O** placed by the computer, the first to complete a consecutive row of their respective **X** or **O** symbol wins.
 <br>
 
+<br>
+
 <div align ="center">
 <img src="/Image/Screenshot20-39-06.png"/>
 </div>
@@ -60,6 +63,9 @@ Start running the Cat Game program, which is just user vs. computer, the program
 
 <br>
 
+<br>
+
+[Return to index.](https://github.com/UP210739/UP210739_CPP/tree/main/U3#index)
 # 
 <h1 align=center>
 Flowchart
@@ -67,6 +73,8 @@ Flowchart
 <br>
 
 This flowchart explains through figures each of the functions used with their respective codes and cycles that make up the game of the cat.
+<br>
+
 <br>
 
 <br>
@@ -86,6 +94,9 @@ This flowchart explains through figures each of the functions used with their re
 
 <br>
 
+<br>
+
+[Return to index.](https://github.com/UP210739/UP210739_CPP/tree/main/U3#index)
 # 
 <h1 align=center>
 Development and Explanation
@@ -563,6 +574,9 @@ int main()
 
 <br>
 
+<br>
+
+[Return to index.](https://github.com/UP210739/UP210739_CPP/tree/main/U3#index)
 # 
 <h1 align=center>
 Conclusion
@@ -580,3 +594,5 @@ The benefits obtained by carrying out this practice were finding new and/or bett
 <br>
 
 <br>
+
+[Return to index.](https://github.com/UP210739/UP210739_CPP/tree/main/U3#index)
