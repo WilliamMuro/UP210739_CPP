@@ -12,10 +12,13 @@ In this folder you will find the game "Cat Game" [(Cat.pp)](https://github.com/U
 </h1>
 <br>
 
-[1. Execution instructions. (Instructions for execution, use and general considerations).](https://github.com/UP210739/UP210739_CPP/tree/main/U3#--1.-execution-instructions.--)
-[2. Flowchart.](https://github.com/UP210739/UP210739_CPP/tree/main/U3#--2.-flowchart.--)
-[3. Development and explanation. (Execution instructions of code execution).](https://github.com/UP210739/UP210739_CPP/tree/main/U3#--3.-development-and-explanation.--)
-[4. Conclusion.](ttps://github.com/UP210739/UP210739_CPP/tree/main/U3#--4.-conclusion.--)
+[1. Execution instructions. (Instructions for execution, use and general considerations).](https://github.com/UP210739/UP210739_CPP/tree/main/U3#---1.-Execution-Instructions.--)<br>
+
+[2. Flowchart.](https://github.com/UP210739/UP210739_CPP/tree/main/U3#---2.-Flowchart.--)<br>
+
+[3. Development and explanation. (Execution instructions of code execution).](https://github.com/UP210739/UP210739_CPP/tree/main/U3#---3.-Development-and-Explanation.--)<br>
+
+[4. Conclusion.](ttps://github.com/UP210739/UP210739_CPP/tree/main/U3#---4.-Conclusion.--)
 <br>
 
 # 
@@ -31,7 +34,7 @@ Start running the Cat Game program, which is just user vs. computer, the program
 <br>
 
 #
-### 3. Development and explanation.
+### 3. Development and Explanation.
 ```C++
 #include <iostream>
 #include <time.h>
