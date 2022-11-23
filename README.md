@@ -25,10 +25,10 @@ Works and programming practices will be uploaded in this repository.
 
 <div align ="center">
 ignore this photo<br><br>
-<img src="/Image/FightClub.jpg"/>
+<img src="/Image/VersaceVersace.jpg"/>
 </div>
 <br>
 
 # 
 ### Social Network
-:camera: Instagram: https://www.instagram.com/_azstro/
+:camera: Instagram: 
