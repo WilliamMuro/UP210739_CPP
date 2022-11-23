@@ -12,13 +12,13 @@ In this folder you will find the game "Cat Game" [(Cat.pp)](https://github.com/U
 </h1>
 <br>
 
-[1. Execution instructions. (Instructions for execution, use and general considerations).](https://github.com/UP210739/UP210739_CPP/tree/main/U3#--execution-instructions--)<br>
+[1. Execution instructions. (Instructions for execution, use and general considerations).](https://github.com/UP210739/UP210739_CPP/tree/main/U3#execution-instructions)<br>
 
-[2. Flowchart.](https://github.com/UP210739/UP210739_CPP/tree/main/U3#--flowchart--)<br>
+[2. Flowchart.](https://github.com/UP210739/UP210739_CPP/tree/main/U3#flowchart)<br>
 
-[3. Development and explanation. (Execution instructions of code execution).](https://github.com/UP210739/UP210739_CPP/tree/main/U3#--development-and-explanation--)<br>
+[3. Development and explanation. (Execution instructions of code execution).](https://github.com/UP210739/UP210739_CPP/tree/main/U3#development-and-explanation)<br>
 
-[4. Conclusion.](ttps://github.com/UP210739/UP210739_CPP/tree/main/U3#--conclusion--)
+[4. Conclusion.](ttps://github.com/UP210739/UP210739_CPP/tree/main/U3#conclusion)
 <br>
 
 # 
