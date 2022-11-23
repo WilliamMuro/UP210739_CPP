@@ -12,29 +12,41 @@ In this folder you will find the game "Cat Game" [(Cat.pp)](https://github.com/U
 </h1>
 <br>
 
-[1. Execution instructions. (Instructions for execution, use and general considerations).](https://github.com/UP210739/UP210739_CPP/tree/main/U3#---1.-Execution-Instructions.--)<br>
+[1. Execution instructions. (Instructions for execution, use and general considerations).](https://github.com/UP210739/UP210739_CPP/tree/main/U3#--execution-instructions--)<br>
 
-[2. Flowchart.](https://github.com/UP210739/UP210739_CPP/tree/main/U3#---2.-Flowchart.--)<br>
+[2. Flowchart.](https://github.com/UP210739/UP210739_CPP/tree/main/U3#--flowchart--)<br>
 
-[3. Development and explanation. (Execution instructions of code execution).](https://github.com/UP210739/UP210739_CPP/tree/main/U3#---3.-Development-and-Explanation.--)<br>
+[3. Development and explanation. (Execution instructions of code execution).](https://github.com/UP210739/UP210739_CPP/tree/main/U3#--development-and-explanation--)<br>
 
-[4. Conclusion.](ttps://github.com/UP210739/UP210739_CPP/tree/main/U3#---4.-Conclusion.--)
+[4. Conclusion.](ttps://github.com/UP210739/UP210739_CPP/tree/main/U3#--conclusion--)
 <br>
 
 # 
-### 1. Execution instructions.
+<h1 align=center>
+Execution instructions
+</h1>
+<br>
+
 Start running the Cat Game program, which is just user vs. computer, the program will ask the user to enter the number of the box that the **X** will be placed on and as soon as a box is selected, the an **X** will appear will be printed and the **O** placed by the computer, the first to complete a consecutive row of their respective **X** or **O** symbol wins.
 <br>
 
-#
-### 2. Flowchart.
+# 
+<h1 align=center>
+Flowchart
+</h1>
+<br>
+
 <div align ="center">
 <img src="/Image/code2flow_BynvqX.png"/><br><img src="/Image/code2flow_BynvqX%20(1).png"/><br><img src="/Image/code2flow_BynvqX%20(2).png"/><br><img src="/Image/code2flow_BynvqX%20(3).png"/><br><img src="/Image/code2flow_BynvqX%20(4).png"/><br><img src="/Image/code2flow_BynvqX%20(5).png"/>
 </div>
 <br>
 
-#
-### 3. Development and Explanation.
+# 
+<h1 align=center>
+Development and Explanation
+</h1>
+<br>
+
 ```C++
 #include <iostream>
 #include <time.h>
@@ -450,7 +462,11 @@ int main()
 Finally, the main function simply creates the array and starts the **game** function which calls all the other functions and thus starts the game, the last one just returns a 0 to finish the program successfully.
 <br>
 
-#
-### 4. Conclusion.
+# 
+<h1 align=center>
+Conclusion
+</h1>
+<br>
+
 This program represented a challenge as it required not only the use of everything learned during the semester, but also the creativity to put together each tool that we had at our disposal and thus create a much more complex program that not only printed specific data, but also data that was changing progressively and that affected internally, so a constant review was necessary to detect when the program ended.<br>
 The benefits obtained by carrying out this practice were finding new and/or better ways of scheduling tasks and, as limitations, the compatibility that one function could have with another.
