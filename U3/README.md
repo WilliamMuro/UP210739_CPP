@@ -4,7 +4,11 @@ UNIT 3
 <br>
 
 ### README.md from unit 3
-In this folder you will find the game "Cat Game" [(Cat.pp)](https://github.com/UP210739/UP210739_CPP/blob/main/U3/Cat.cpp) written in the C++ programming language.
+- In this folder you will find the game "Cat Game" [(Cat.pp)](https://github.com/UP210739/UP210739_CPP/blob/main/U3/Cat.cpp) written in the C++ programming language.
+<br>
+
+<br>
+
 <br>
 
 <br>
@@ -17,13 +21,17 @@ In this folder you will find the game "Cat Game" [(Cat.pp)](https://github.com/U
 </h1>
 <br>
 
-1. [Execution instructions. (Instructions for execution, use and general considerations).](https://github.com/UP210739/UP210739_CPP/tree/main/U3#execution-instructions)<br>
+> [Execution instructions. (Instructions for execution, use and general considerations).](https://github.com/UP210739/UP210739_CPP/tree/main/U3#execution-instructions)<br>
 
-2. [Flowchart.](https://github.com/UP210739/UP210739_CPP/tree/main/U3#flowchart)<br>
+> [Flowchart.](https://github.com/UP210739/UP210739_CPP/tree/main/U3#flowchart)<br>
 
-3. [Development and explanation. (Execution instructions of code execution).](https://github.com/UP210739/UP210739_CPP/tree/main/U3#development-and-explanation)<br>
+> [Development and explanation. (Execution instructions of code execution).](https://github.com/UP210739/UP210739_CPP/tree/main/U3#development-and-explanation)<br>
 
-4. [Conclusion.](https://github.com/UP210739/UP210739_CPP/tree/main/U3#conclusion)
+> [Conclusion.](https://github.com/UP210739/UP210739_CPP/tree/main/U3#conclusion)
+<br>
+
+<br>
+
 <br>
 
 <br>
@@ -37,9 +45,15 @@ Execution instructions
 <br>
 
 Start running the Cat Game program, which is just user vs. computer, the program will ask the user to enter the number of the box that the **X** will be placed on and as soon as a box is selected, the an **X** will appear will be printed and the **O** placed by the computer, the first to complete a consecutive row of their respective **X** or **O** symbol wins.
+<br>
+
 <div align ="center">
 <img src="/Image/Screenshot20-39-06.png"/>
 </div>
+<br>
+
+<br>
+
 <br>
 
 <br>
@@ -55,9 +69,17 @@ Flowchart
 This flowchart explains through figures each of the functions used with their respective codes and cycles that make up the game of the cat.
 <br>
 
+<br>
+
+<br>
+
 <div align ="center">
 <img src="/Image/code2flow_BynvqX.png"/><br><img src="/Image/code2flow_BynvqX%20(1).png"/><br><img src="/Image/code2flow_BynvqX%20(2).png"/><br><img src="/Image/code2flow_BynvqX%20(3).png"/><br><img src="/Image/code2flow_BynvqX%20(4).png"/><br><img src="/Image/code2flow_BynvqX%20(5).png"/>
 </div>
+<br>
+
+<br>
+
 <br>
 
 <br>
@@ -70,8 +92,12 @@ Development and Explanation
 </h1>
 <br>
 
-- The program uses the **<iostream>** and **<time.h>** libraries to print game board modifications in real time.
+The program uses the **<iostream>** and **<time.h>** libraries to print game board modifications in real time.
+<br>
+
 - The purpose of each function will be explained below.
+<br>
+
 <br>
 
 <br>
@@ -144,6 +170,8 @@ void game(char board[3][3])
 
 <br>
 
+<br>
+
 ```C++
 void enterMove(char board[3][3])
 {
@@ -166,6 +194,8 @@ void enterMove(char board[3][3])
 ### void enterMove(char board[3][3])
 
 - This function sorts the numbers in the boxes to show each move as a number.
+<br>
+
 <br>
 
 <br>
@@ -303,6 +333,8 @@ void entryMove(char board[3][3])
 
 <br>
 
+<br>
+
 ```C++
 void computer (char board[3][3]){
     int counter1, counter2, number;
@@ -328,6 +360,8 @@ void computer (char board[3][3]){
 ### void computer (char board[3][3])
 
 - This function randomly chooses an unoccupied square that will be the move the computer will make.
+<br>
+
 <br>
 
 <br>
@@ -377,6 +411,8 @@ void boardBody(char board[3][3])
 ### void boardBody(char board[3][3])
 
 - This function is responsible for shaping the game by printing the title and the board.
+<br>
+
 <br>
 
 <br>
@@ -500,6 +536,8 @@ int winner (char board[3][3]){
 
 <br>
 
+<br>
+
 ```C++
 int main()
 {
@@ -521,6 +559,10 @@ int main()
 
 <br>
 
+<br>
+
+<br>
+
 # 
 <h1 align=center>
 Conclusion
@@ -529,3 +571,12 @@ Conclusion
 
 This program represented a challenge as it required not only the use of everything learned during the semester, but also the creativity to put together each tool that we had at our disposal and thus create a much more complex program that not only printed specific data, but also data that was changing progressively and that affected internally, so a constant review was necessary to detect when the program ended.<br>
 The benefits obtained by carrying out this practice were finding new and/or better ways of scheduling tasks and, as limitations, the compatibility that one function could have with another.
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
