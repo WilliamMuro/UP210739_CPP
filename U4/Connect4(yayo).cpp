@@ -27,10 +27,31 @@ void dibujarEncabezado (int columnas){
     }
 }
 
-int main(){
 
+int dibujarTablero(char tablero[FILAS][COLUMNAS]){
+    dibujarEncabezado(COLUMNAS);
+    cout << endl;
+    int i;
+    for ( i = 0; i < FILAS; ++i)
+    {
+        int j;
+        for (j = 0; j < COLUMNAS; ++j)
+        {
+            cout << "|%c",tablero[i][j];
+            if (j+1 >=COLUMNAS)
+            {
+                cout << "|";
+            }
+            cout << endl;
+        }
+        
+    }
+    return 0;
     
 }
 
+int main(){
+    char tablero[FILAS][COLUMNAS];
+    dibujarTablero(tablero);
 
-
+}
