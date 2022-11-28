@@ -9,10 +9,20 @@
 #define FILA_NO_ENCONTRADA -1 */
 
 #include <iostream>
-#include <time.h>
-
 using namespace std;
+#include <stdio.h>
 
+int obtenerFilaDesocupada(int columna, char tablero[FILAS][COLUMNAS]){
+    int i;
+    for (i = FILAS -1; i >= 0 ,i--){
+        if (tablero[i][columna]= espacio_Vacio)
+        {
+            return i;
+        }
+    return fila_No_Encontrada;
+    }
+    
+}
 
 void dibujarEncabezado (int columnas){
     cout << endl;
@@ -50,8 +60,7 @@ int dibujarTablero(char tablero[FILAS][COLUMNAS]){
     
 }
 
-int main(){
-    char tablero[FILAS][COLUMNAS];
-    dibujarTablero(tablero);
 
+
+int main(){
 }
