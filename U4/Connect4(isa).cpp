@@ -15,6 +15,8 @@ int FullBoard( char board[][10] );
 void PlayerWin ( playerInfo activePlayer );
 int restart ( char board[][10] );
 
+
+
 int main()
 {
 	playerInfo playerOne, playerTwo;
@@ -22,8 +24,15 @@ int main()
 	int trueWidth = 7; 
 	int trueLength = 6; 
 	int dropChoice, win, full, again;
-
-	cout << "Let's Play Connect 4" << endl << endl;
+	
+	
+	cout << "  " <<endl;
+	cout << "  █████╗   █████╗  ███╗  ██╗ ███╗  ██╗ ███████╗  █████╗  ████████╗     ██╗██╗ " <<endl;
+	cout << " ██╔══██╗ ██╔══██╗ ████╗ ██║ ████╗ ██║ ██╔════╝ ██╔══██╗ ╚══██╔══╝    ██╔╝██║ " <<endl;
+	cout << " ██║  ╚═╝ ██║  ██║ ██╔██╗██║ ██╔██╗██║ █████╗   ██║  ╚═╝    ██║      ██╔╝ ██║ " <<endl;
+	cout << " ██║  ██╗ ██║  ██║ ██║╚████║ ██║╚████║ ██╔══╝   ██║  ██╗    ██║      ███████║ " <<endl;
+	cout << " ╚█████╔╝ ╚█████╔╝ ██║ ╚███║ ██║ ╚███║ ███████╗ ╚█████╔╝    ██║      ╚════██║ " <<endl;
+	cout << "  ╚════╝   ╚════╝  ╚═╝  ╚══╝ ╚═╝  ╚══╝ ╚══════╝  ╚════╝     ╚═╝           ╚═╝ " <<endl;
 	cout << "Player One please enter your name: ";
 	cin  >> playerOne.playerName;
 	playerOne.playerID = 'X';
