@@ -36,10 +36,10 @@ int main()
 	cout << "    ╚█████╔╝ ╚█████╔╝ ██║ ╚███║ ██║ ╚███║ ███████╗ ╚█████╔╝    ██║      ╚════██║ " <<endl;
 	cout << "     ╚════╝   ╚════╝  ╚═╝  ╚══╝ ╚═╝  ╚══╝ ╚══════╝  ╚════╝     ╚═╝           ╚═╝ " <<endl;
     cout << "  " <<endl;
-	cout << "Player One please enter your name: ";
+	cout << "Player One enter your name: ";
 	cin  >> playerOne.playerName;
 	playerOne.playerID = 'X';
-	cout << "Player Two please enter your name: ";
+	cout << "Player Two enter your name: ";
 	cin  >> playerTwo.playerName;
 	playerTwo.playerID = 'O';
 	
@@ -227,7 +227,7 @@ return full;
 
 void PlayerWin ( playerInfo activePlayer )
 {
-	cout << endl << activePlayer.playerName << " Connected Four, You Win!" << endl;
+	cout << endl << activePlayer.playerName << " ¡You Win!" << endl;
 }
 
 int restart ( char board[][10] )
@@ -247,6 +247,6 @@ int restart ( char board[][10] )
 		}
 	}
 	else
-		cout << "Goodbye!" << endl;
+		cout << "BYE <3	" << endl;
 return restart;
 }
