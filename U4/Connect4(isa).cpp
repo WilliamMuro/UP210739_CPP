@@ -16,6 +16,8 @@ int FullBoard(char board[][10]);
 void PlayerWin(playerInfo activePlayer);
 int restart(char board[][10]);
 
+
+
 int main()
 {
     playerInfo playerOne, playerTwo;
