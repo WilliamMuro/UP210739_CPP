@@ -29,20 +29,25 @@ int main()
 	cout << "  " <<endl;
     cout << "  " <<endl;
     cout << "  " <<endl;
-	cout << "     █████╗   █████╗  ███╗  ██╗ ███╗  ██╗ ███████╗  █████╗  ████████╗     ██╗██╗ " <<endl;
-	cout << "    ██╔══██╗ ██╔══██╗ ████╗ ██║ ████╗ ██║ ██╔════╝ ██╔══██╗ ╚══██╔══╝    ██╔╝██║ " <<endl;
-	cout << "    ██║  ╚═╝ ██║  ██║ ██╔██╗██║ ██╔██╗██║ █████╗   ██║  ╚═╝    ██║      ██╔╝ ██║ " <<endl;
-	cout << "    ██║  ██╗ ██║  ██║ ██║╚████║ ██║╚████║ ██╔══╝   ██║  ██╗    ██║      ███████║ " <<endl;
-	cout << "    ╚█████╔╝ ╚█████╔╝ ██║ ╚███║ ██║ ╚███║ ███████╗ ╚█████╔╝    ██║      ╚════██║ " <<endl;
-	cout << "     ╚════╝   ╚════╝  ╚═╝  ╚══╝ ╚═╝  ╚══╝ ╚══════╝  ╚════╝     ╚═╝           ╚═╝ " <<endl;
+	cout << "         █████╗   █████╗  ███╗  ██╗ ███╗  ██╗ ███████╗  █████╗  ████████╗     ██╗██╗ " <<endl;
+	cout << "        ██╔══██╗ ██╔══██╗ ████╗ ██║ ████╗ ██║ ██╔════╝ ██╔══██╗ ╚══██╔══╝    ██╔╝██║ " <<endl;
+	cout << "        ██║  ╚═╝ ██║  ██║ ██╔██╗██║ ██╔██╗██║ █████╗   ██║  ╚═╝    ██║      ██╔╝ ██║ " <<endl;
+	cout << "        ██║  ██╗ ██║  ██║ ██║╚████║ ██║╚████║ ██╔══╝   ██║  ██╗    ██║      ███████║ " <<endl;
+	cout << "        ╚█████╔╝ ╚█████╔╝ ██║ ╚███║ ██║ ╚███║ ███████╗ ╚█████╔╝    ██║      ╚════██║ " <<endl;
+	cout << "         ╚════╝   ╚════╝  ╚═╝  ╚══╝ ╚═╝  ╚══╝ ╚══════╝  ╚════╝     ╚═╝           ╚═╝ " <<endl;
+	cout << "  " <<endl;
     cout << "  " <<endl;
-	cout << "Player One enter your name: ";
+	cout << "Which game mode do you want to play? \n ";
+	cout << "1 - Player vs Player \n ";
+	cout << "2 - PC vs Player \n";
+	cout << "Player One please enter your name: ";
 	cin  >> playerOne.playerName;
 	playerOne.playerID = 'X';
-	cout << "Player Two enter your name: ";
+	cout << "Player Two please enter your name: ";
 	cin  >> playerTwo.playerName;
 	playerTwo.playerID = 'O';
-	
+	cout << "  " <<endl;
+	cout << "  " <<endl;
 	full = 0;
 	win = 0;
 	again = 0;
@@ -140,7 +145,7 @@ void DisplayBoard ( char board[][10] )
 		for(ix = 1; ix <= columns; ix++)
 		{
 			if(board[i][ix] != 'X' && board[i][ix] != 'O')
-				board[i][ix] = '*';
+				board[i][ix] = '_';
 
 			cout << board[i][ix];
 			
@@ -227,7 +232,7 @@ return full;
 
 void PlayerWin ( playerInfo activePlayer )
 {
-	cout << endl << activePlayer.playerName << " ¡You Win!" << endl;
+	cout << endl << activePlayer.playerName << " Connected Four, You Win!" << endl;
 }
 
 int restart ( char board[][10] )
@@ -247,6 +252,6 @@ int restart ( char board[][10] )
 		}
 	}
 	else
-		cout << "BYE <3	" << endl;
+		cout << "Goodbye!" << endl;
 return restart;
 }
