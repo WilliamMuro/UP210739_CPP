@@ -20,20 +20,49 @@ int restart(char board[][10]);
 
 int main()
 {
-    playerInfo playerOne, playerTwo;
-    char board[9][10];
-    int trueWidth = 7;
-    int trueLength = 6;
-    int dropChoice, win, full, again;
-
-    cout << "Let's Play Connect 4" << endl
-         << endl;
-    cout << "Player One please enter your name: ";
-    cin >> playerOne.playerName;
-    playerOne.playerID = 'X';
-    cout << "Player Two please enter your name: ";
-    cin >> playerTwo.playerName;
-    playerTwo.playerID = 'O';
+	playerInfo playerOne, playerTwo;
+	char board[9][10]; 
+	int trueWidth = 7; 
+	int trueLength = 6; 
+	int dropChoice, win, full, again;
+	
+	
+	cout << "  " <<endl;
+    cout << "  " <<endl;
+    cout << "  " <<endl;
+	cout << "     █████╗   █████╗  ███╗  ██╗ ███╗  ██╗ ███████╗  █████╗  ████████╗     ██╗██╗ " <<endl;
+	cout << "    ██╔══██╗ ██╔══██╗ ████╗ ██║ ████╗ ██║ ██╔════╝ ██╔══██╗ ╚══██╔══╝    ██╔╝██║ " <<endl;
+	cout << "    ██║  ╚═╝ ██║  ██║ ██╔██╗██║ ██╔██╗██║ █████╗   ██║  ╚═╝    ██║      ██╔╝ ██║ " <<endl;
+	cout << "    ██║  ██╗ ██║  ██║ ██║╚████║ ██║╚████║ ██╔══╝   ██║  ██╗    ██║      ███████║ " <<endl;
+	cout << "    ╚█████╔╝ ╚█████╔╝ ██║ ╚███║ ██║ ╚███║ ███████╗ ╚█████╔╝    ██║      ╚════██║ " <<endl;
+	cout << "     ╚════╝   ╚════╝  ╚═╝  ╚══╝ ╚═╝  ╚══╝ ╚══════╝  ╚════╝     ╚═╝           ╚═╝ " <<endl;
+    cout << "  " <<endl;
+	cout << "Player One enter your name: ";
+	cin  >> playerOne.playerName;
+	playerOne.playerID = 'X';
+	cout << "Player Two enter your name: ";
+	cin  >> playerTwo.playerName;
+	playerTwo.playerID = 'O';
+	
+	full = 0;
+	win = 0;
+	again = 0;
+	DisplayBoard( board );
+	do
+	{
+		dropChoice = PlayerDrop( board, playerOne );
+		CheckBellow( board, playerOne, dropChoice );
+		DisplayBoard( board );
+		win = CheckFour( board, playerOne );
+		if ( win == 1 )
+		{
+			PlayerWin(playerOne);
+			again = restart(board);
+			if (again == 2)
+			{
+				break;
+			}
+		}
 
     full = 0;
     win = 0;
@@ -212,14 +241,14 @@ int FullBoard(char board[][10])
 
 void PlayerWin(playerInfo activePlayer)
 {
-    cout << endl
-         << activePlayer.playerName << " Connected Four, You Win!" << endl;
+	cout << endl << activePlayer.playerName << " ¡You Win!" << endl;
 }
 
 int restart(char board[][10])
 {
     int restart;
 
+<<<<<<< HEAD
     cout << "Would you like to restart? Yes(1) No(2): ";
     cin >> restart;
     if (restart == 1)
@@ -235,4 +264,21 @@ int restart(char board[][10])
     else
         cout << "Goodbye!" << endl;
     return restart;
+=======
+	cout << "Would you like to restart? Yes(1) No(2): ";
+	cin  >> restart;
+	if ( restart == 1 )
+	{
+		for(int i = 1; i <= 6; i++)
+		{
+			for(int ix = 1; ix <= 7; ix++)
+			{
+				board[i][ix] = '*';
+			}
+		}
+	}
+	else
+		cout << "BYE <3	" << endl;
+return restart;
+>>>>>>> 75c94909515009dbf35ff8403207d843240c28cb
 }
