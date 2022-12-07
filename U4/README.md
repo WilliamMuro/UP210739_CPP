@@ -1,9 +1,15 @@
-# UPA<br>Computer Systems Engineering
+<h1 align=center>
+UPA<br>Computer Systems Engineering
+</h1>
 <br>
 
-- César William Muro Hernández [UP210739](https://github.com/UP210739)
-- Yahir Garcia Alba [UP210246](https://github.com/UP210246)
-- Isaias Moreno Luna [UP210644](https://github.com/UP210644)
+César William Muro Hernández<br>["UP210739"](https://github.com/UP210739)
+<br>
+
+Yahir Garcia Alba<br>["UP210246"](https://github.com/UP210246)
+<br>
+
+Isaias Moreno Luna<br>["UP210644"](https://github.com/UP210644)
 <br>
 <br>
 <br>
@@ -30,7 +36,7 @@ In this folder you will find the game "CONNECT 4" ( ) written in the C++ program
 <br>
 
 1. Execution instructions.
-   - (Instructions for execution, use and general considerations).
+   - (Use and general considerations).
 2. Flowchart.
 3. Development and explanation.
    - (Execution instructions of code execution).
@@ -47,3 +53,19 @@ In this folder you will find the game "CONNECT 4" ( ) written in the C++ program
 
 # 
 # Execution instructions
+<br>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+#
+# Flowchart
+<br>
+
