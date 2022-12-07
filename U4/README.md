@@ -15,7 +15,6 @@ Isaias Moreno Luna<br>["UP210644"](https://github.com/UP210644)
 <br>
 <br>
 
-# 
 <h1 align=center>
 Connect 4
 </h1>
@@ -32,7 +31,6 @@ In this folder you will find the game "CONNECT 4" [()]() written in the C++ prog
 <br>
 <br>
 
-# 
 # Index
 <br>
 
@@ -49,7 +47,6 @@ In this folder you will find the game "CONNECT 4" [()]() written in the C++ prog
 <br>
 <br>
 
-# 
 # Execution instructions
 <br>
 
@@ -57,56 +54,56 @@ In this folder you will find the game "CONNECT 4" [()]() written in the C++ prog
 
 1. Download or clone my repo with the following command in the terminal:
    
-~
+```
 "git clone https://github.com/UP210739/UP210739_CPP.git"
-~
+```
 
 2. Download and install the compiler in this link https://sourceforge.net/projects/mingw/files/OldFiles/ 
 3. Open the terminal at the direction of the file with the command:
 
-~
+```
 cd C:\Documents\...
-~
+```
 
 4. To compile use command:
 
-~
+```
 gcc  04_Connect4.cpp -o 04_Connect4.exe
-~
+```
 
 5. To run type this code:
 
-~
+```
 04_Connect4.exe
-~
+```
 <br>
 
 ### Instructions for Linux 
 
 1. Download or clone my repo with the following command in the terminal:
    
-~
+```
 "git clone https://github.com/UP210739/UP210739_CPP.git"
-~
+```
 
 2. Install GNU c/c++ compiler, open the terminal and type:
 
-~
+```
 $ sudo apt-get update
 $ sudo apt-get install build-essential manpages-dev
-~
+```
 
 3. To compile this program, type:
 
-~
+```
 gcc 04_Connect4.c -o 04_Connect4
-~
+```
 
 4. To run this program, type:
    
-~
+```
 ./04_Connect4
-~
+```
 <br>
 
 ### Use and general considerations
@@ -126,7 +123,6 @@ Escribir como usarlo y las consideraciones generales aqui.
 </div>
 <br>
 
-# 
 # Flowchart
 <br>
 
@@ -153,7 +149,6 @@ This flowchart explains through figures the functions<br>used in the Connect 4 g
 </div>
 <br>
 
-# 
 # Development and explanation
 <br>
 
@@ -177,7 +172,6 @@ Escribir las instrucciones de ejecucion del codigo aqui.
 </div>
 <br>
 
-# 
 # Conclusion.
 <br>
 
