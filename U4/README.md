@@ -33,30 +33,80 @@ In this folder you will find the game "CONNECT 4" [()]() written in the C++ prog
 <br>
 
 # 
-# Index(william)
+# Index
 <br>
 
-[1.- Execution instructions.]()<br>
-[ - (Use and general considerations).]()<br>
-[2.- Flowchart.]()<br>
-[3.- Development and explanation.]()<br>
-[ - (Execution instructions of code execution).]()<br>
-[4.- Conclusion.]()
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+**1.-** Execution instructions.<sup>[Click here to see.](https://github.com/UP210739/UP210739_CPP/tree/main/U4#execution-instructions)</sup><br>
+ - <sub>[(Use and general considerations).](https://github.com/UP210739/UP210739_CPP/tree/main/U4#use-and-general-considerations)</sub><br>
+
+**2.-** Flowchart.<sup>[Click here to see.](https://github.com/UP210739/UP210739_CPP/tree/main/U4#flowchart)</sup><br>
+
+**3.-** Development and explanation.<sup>[Click here to see.](https://github.com/UP210739/UP210739_CPP/tree/main/U4#development-and-explanation)</sup><br>
+- <sub>[(Execution instructions of code execution).](https://github.com/UP210739/UP210739_CPP/tree/main/U4#execution-instructions-of-code-execution)</sub><br>
+
+**4.-** Conclusion.<sup>[Click here to see.](https://github.com/UP210739/UP210739_CPP/tree/main/U4#conclision)</sup>
 <br>
 <br>
 <br>
 
 # 
-# Execution instructions(william)
+# Execution instructions
 <br>
 
-Escribir aqui como iniciar el programa aqui.
+### Instructions for Windows 
+
+1. Download or clone my repo with the following command in the terminal:
+   
+~
+"git clone https://github.com/UP210739/UP210739_CPP.git"
+~
+
+2. Download and install the compiler in this link https://sourceforge.net/projects/mingw/files/OldFiles/ 
+3. Open the terminal at the direction of the file with the command:
+
+~
+cd C:\Documents\...
+~
+
+4. To compile use command:
+
+~
+gcc  04_Connect4.cpp -o 04_Connect4.exe
+~
+
+5. To run type this code:
+
+~
+04_Connect4.exe
+~
+<br>
+
+### Instructions for Linux 
+
+1. Download or clone my repo with the following command in the terminal:
+   
+~
+"git clone https://github.com/UP210739/UP210739_CPP.git"
+~
+
+2. Install GNU c/c++ compiler, open the terminal and type:
+
+~
+$ sudo apt-get update
+$ sudo apt-get install build-essential manpages-dev
+~
+
+3. To compile this program, type:
+
+~
+gcc 04_Connect4.c -o 04_Connect4
+~
+
+4. To run this program, type:
+   
+~
+./04_Connect4
+~
 <br>
 
 ### Use and general considerations
@@ -67,20 +117,26 @@ Escribir como usarlo y las consideraciones generales aqui.
 <br>
 <br>
 <br>
-<br>
-<br>
+
+<div align="center">
+<h2>
+
+[Return to Index](#index)
+</h2>
+</div>
 <br>
 
-[Return to index.]()
 # 
-# Flowchart(william)
-<br>
-
-This flowchart explains through figures the functions used in the Connect 4 game code.
+# Flowchart
 <br>
 
 <div align ="center">
 <img src="/Image/C4F.jpg"/>
+</div>
+<br>
+
+<div align ="center">
+This flowchart explains through figures the functions<br>used in the Connect 4 game code.
 </div>
 <br>
 <br>
@@ -88,13 +144,17 @@ This flowchart explains through figures the functions used in the Connect 4 game
 <br>
 <br>
 <br>
-<br>
-<br>
+
+<div align="center">
+<h2>
+
+[Return to Index](#index)
+</h2>
+</div>
 <br>
 
-[Return to index.]()
 # 
-# Development and explanation(Yahir)
+# Development and explanation
 <br>
 
 Escribir explicacion aqui.
@@ -108,19 +168,20 @@ Escribir las instrucciones de ejecucion del codigo aqui.
 <br>
 <br>
 <br>
-<br>
-<br>
+
+<div align="center">
+<h2>
+
+[Return to Index](#index)
+</h2>
+</div>
 <br>
 
-[Return to index.]()
 # 
-# Conclusion.(Isa)
+# Conclusion.
 <br>
 
-Escribir la conclusion aqui.
-<br>
-<br>
-<br>
+With this project we completed unit 4 of the 3er quarter, we learned many new functions and codes that were used in every project that was done in the quarter. Everything we learned will be of great help for future work. In this project there were many complications as for example when making the table of the connecting 4, there were also complications when moving the texts to the side of the table but it was possible to reach the desired project. Thank you our master for having
 <br>
 <br>
 <br>
@@ -128,4 +189,10 @@ Escribir la conclusion aqui.
 <br>
 <br>
 
-[Return to index.]()
+<div align="center">
+<h2>
+
+[Return to Index](#index)
+</h2>
+</div>
+<br>
