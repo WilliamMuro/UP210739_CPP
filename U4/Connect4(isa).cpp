@@ -141,7 +141,7 @@ void dibujarEncabezado (char board[][10]){
     for ( i = 0; i < columns; ++i) {
         
         cout << "|", i +1;
-        cout << "     ";
+        cout << "  " << i +1 << "  ";
         if (i+1 >= columns)
         {
             cout<< "|";
