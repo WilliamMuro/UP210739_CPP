@@ -1,10 +1,9 @@
-# UPA
-## Computer Systems Engineering
+# UPA<br>Computer Systems Engineering
 <br>
 
-- César William Muro Hernández UP210739
-- Yahir Garcia Alba UP210246
-- Isaias Moreno Luna UP210644
+- César William Muro Hernández [UP210739](https://github.com/UP210739)
+- Yahir Garcia Alba [UP210246](https://github.com/UP210246)
+- Isaias Moreno Luna [UP210644](https://github.com/UP210644)
 <br>
 <br>
 <br>
