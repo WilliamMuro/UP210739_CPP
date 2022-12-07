@@ -13,7 +13,6 @@ Yahir Garcia Alba<br>["UP210246"](https://github.com/UP210246)
 Isaias Moreno Luna<br>["UP210644"](https://github.com/UP210644)
 <br>
 <br>
-<br>
 
 <h1 align=center>
 Connect 4
@@ -26,7 +25,7 @@ Connect 4
 <br>
 
 ### README.md from Unit 4
-In this folder you will find the game "CONNECT 4" [()]() written in the C++ programming language, it is a game for 2 players in which each player takes turns trying to create a line of 4 tiles in a row and at the same time avoiding another player gets it first.
+In this folder you will find the game "CONNECT 4" [(connect4.cpp)](https://github.com/UP210739/UP210739_CPP/blob/main/U4/connect4.cpp) written in the C++ programming language, it is a game for 2 players in which each player takes turns trying to create a line of 4 tiles in a row and at the same time avoiding another player gets it first.
 <br>
 <br>
 <br>
@@ -44,7 +43,6 @@ In this folder you will find the game "CONNECT 4" [()]() written in the C++ prog
 
 
 [5- Closure](https://github.com/UP210739/UP210739_CPP/tree/main/U4#conclusion)  
-<br>
 <br>
 <br>
 
@@ -116,14 +114,13 @@ The board will then be displayed and you will be asked to enter a number from 1 
 
 If you select an entire column, it will ask you to select a number again.
 When any player wins, the game ends and it will ask you if you want to play.
-<br>
 
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
+<div align="center">
+
+
+<img src=" imagen/../../Image/jugada%20en%201.png"  height = 198>
+ </div></br>
 
 <div align="center">
 <h2>
@@ -146,10 +143,6 @@ This flowchart explains through figures the functions<br>used in the Connect 4 g
 </div>
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
 
 <div align="center">
 <h2>
@@ -162,8 +155,6 @@ This flowchart explains through figures the functions<br>used in the Connect 4 g
 # Development and explanation
 
 ### Execution instructions of code execution
-
-
 
 <br>
 <br>
@@ -240,11 +231,7 @@ And finally the possibility of winning by the right diagonal and the completion 
 
 ### With this project we completed unit 4 of the 3er quarter, we learned many new functions and codes that were used in every project that was done in the quarter. Everything we learned will be of great help for future work. In this project there were many complications as for example when making the table of the connecting 4, there were also complications when moving the texts to the side of the table but it was possible to reach the desired project. Thank you our master for having
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
+
 
 <div align="center">
 <h2>
