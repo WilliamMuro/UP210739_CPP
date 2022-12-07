@@ -37,10 +37,10 @@ In this folder you will find the game "CONNECT 4" [()]() written in the C++ prog
 <br>
 
 [1.- Execution instructions.]()
-   - [(Use and general considerations).]()
-[2.- Flowchart.]()
+   - [(Use and general considerations).]()<br>
+[2.- Flowchart.]()<br>
 [3.- Development and explanation.]()
-   - [(Execution instructions of code execution).]()
+   - [(Execution instructions of code execution).]()<br>
 [4.- Conclusion.]()
 <br>
 <br>
