@@ -1,14 +1,17 @@
 <h1 align=center>
 <sub>UPA<br><sup>Computer Systems Engineering</sup></sub>
 </h1>
-<br>
 <div align ="center">
 <br>César William Muro Hernández<br>UP210739<br>Yahir Garcia Alba<br>UP210246<br>Isaias Moreno Luna<br>UP210644
 </div>
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
 
+#
 <h1 align=center>
 Connect 4
 </h1>
@@ -18,8 +21,13 @@ Connect 4
 <img src="/Image/C4.jpg"/>
 </div>
 <br>
+<br>
+<br>
 
-## Index
+# 
+# Index
+<br>
+<br>
 
 1. Execution instructions.
    - (Instructions for execution, use and general considerations).
@@ -33,5 +41,8 @@ Connect 4
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
 
-## Execution instructions
+# Execution instructions
