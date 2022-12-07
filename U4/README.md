@@ -36,11 +36,11 @@ In this folder you will find the game "CONNECT 4" [()]() written in the C++ prog
 # Index(william)
 <br>
 
-[1.- Execution instructions.]()
-   - [(Use and general considerations).]()<br>
+[1.- Execution instructions.]()<br>
+[ - (Use and general considerations).]()<br>
 [2.- Flowchart.]()<br>
-[3.- Development and explanation.]()
-   - [(Execution instructions of code execution).]()<br>
+[3.- Development and explanation.]()<br>
+[ - (Execution instructions of code execution).]()<br>
 [4.- Conclusion.]()
 <br>
 <br>
