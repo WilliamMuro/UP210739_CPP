@@ -1,6 +1,9 @@
 <h1 align=center>
-UPA<br>Computer Systems Engineering
+UPA<br><sub><sup>Computer Systems Engineering</sup></sub>
 </h1>
+<br>
+
+Contributors to this repository:
 <br>
 
 César William Muro Hernández<br>["UP210739"](https://github.com/UP210739)
@@ -14,7 +17,7 @@ Isaias Moreno Luna<br>["UP210644"](https://github.com/UP210644)
 <br>
 <br>
 
-#
+# 
 <h1 align=center>
 Connect 4
 </h1>
@@ -56,6 +59,10 @@ In this folder you will find the game "CONNECT 4" ( ) written in the C++ program
 <br>
 
 <br>
+
+### Use and general considerations
+
+<br>
 <br>
 <br>
 <br>
@@ -65,7 +72,60 @@ In this folder you will find the game "CONNECT 4" ( ) written in the C++ program
 <br>
 <br>
 
-#
+Return to index.
+# 
 # Flowchart
 <br>
 
+This flowchart explains through figures the functions used in the Connect 4 game code.
+<br>
+
+<div align ="center">
+<img src="/Image/C4F.jpg"/>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+Return to index.
+# 
+# Development and explanation
+<br>
+
+<br>
+
+### Execution instructions of code execution
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+Return to index.
+# 
+# Conclusion.
+<br>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+Return to index.
