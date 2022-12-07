@@ -42,7 +42,7 @@ In this folder you will find the game "CONNECT 4" [()]() written in the C++ prog
 **3.-** Development and explanation.<sup>[Click here to see.](https://github.com/UP210739/UP210739_CPP/tree/main/U4#development-and-explanation)</sup><br>
 - <sub>[(Execution instructions of code execution).](https://github.com/UP210739/UP210739_CPP/tree/main/U4#execution-instructions-of-code-execution)</sub><br>
 
-**4.-** Conclusion.<sup>[Click here to see.](https://github.com/UP210739/UP210739_CPP/tree/main/U4#conclision)</sup>
+**4.-** Conclusion.<sup>[Click here to see.](https://github.com/UP210739/UP210739_CPP/tree/main/U4#conclusion)</sup>
 <br>
 <br>
 <br>
@@ -107,7 +107,16 @@ gcc 04_Connect4.c -o 04_Connect4
 <br>
 
 ### Use and general considerations
-Escribir como usarlo y las consideraciones generales aqui.
+When you start the program, the home screen will be displayed and you will be asked to enter the name of the players.
+<br>
+
+The board will then be displayed and you will be asked to enter a number from 1 to 7 indicating the column you want to place the token in.
+<br>
+
+If you select an entire column, it will ask you to select a number again.
+When any player wins, the game ends and it will ask you if you want to play.
+<br>
+
 <br>
 <br>
 <br>
