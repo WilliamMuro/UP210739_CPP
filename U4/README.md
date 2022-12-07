@@ -34,15 +34,16 @@ In this folder you will find the game "CONNECT 4" [()]() written in the C++ prog
 # Index
 <br>
 
-**1.-** Execution instructions.<sup>[Click here to see.](https://github.com/UP210739/UP210739_CPP/tree/main/U4#execution-instructions)</sup><br>
- - <sub>[(Use and general considerations).](https://github.com/UP210739/UP210739_CPP/tree/main/U4#use-and-general-considerations)</sub><br>
+[ 1- Execution instructions.](https://github.com/UP210739/UP210739_CPP/tree/main/U4#execution-instructions) 
 
-**2.-** Flowchart.<sup>[Click here to see.](https://github.com/UP210739/UP210739_CPP/tree/main/U4#flowchart)</sup><br>
+*   [Use and general considerations](https://github.com/UP210739/UP210739_CPP/tree/main/U4#use-and-general-considerations)
 
-**3.-** Development and explanation.<sup>[Click here to see.](https://github.com/UP210739/UP210739_CPP/tree/main/U4#development-and-explanation)</sup><br>
-- <sub>[(Execution instructions of code execution).](https://github.com/UP210739/UP210739_CPP/tree/main/U4#execution-instructions-of-code-execution)</sub><br>
+[3- Flowchart](https://github.com/UP210739/UP210739_CPP/tree/main/U4#flowchart)  
 
-**4.-** Conclusion.<sup>[Click here to see.](https://github.com/UP210739/UP210739_CPP/tree/main/U4#conclusion)</sup>
+[4-Development and explanation](https://github.com/UP210739/UP210739_CPP/tree/main/U4#flowchart)  
+
+
+[5- Closure](https://github.com/UP210739/UP210739_CPP/tree/main/U4#conclusion)  
 <br>
 <br>
 <br>
@@ -159,18 +160,71 @@ This flowchart explains through figures the functions<br>used in the Connect 4 g
 <br>
 
 # Development and explanation
-<br>
-
-Escribir explicacion aqui.
-<br>
 
 ### Execution instructions of code execution
-Escribir las instrucciones de ejecucion del codigo aqui.
+
+
+
 <br>
 <br>
-<br>
-<br>
-<br>
+<div align="center">
+
+First it shows us the beginning of the game asking us what is the name of the first player
+  
+
+<img src=" image/../../Image/inicio.png"  height = 150>
+</div></br></br>
+
+<div align="center">
+
+After putting the first name and hitting enter, you put the name of the second player
+
+<img src=" imagen/../../Image/nombreJugadores.png"  height = 167 >
+ </div></br></br>
+
+<div align="center">
+
+The first player put an "X" in box 1
+
+<img src=" imagen/../../Image/jugada%20en%201.png"  height = 198>
+ </div></br></br>
+
+<div align="center">
+
+The second player put an "0" in box 3
+
+<img src=" imagen/../../Image/jugada%202.png"  height = 199>
+ </div></br></br>
+
+<div align="center">
+
+In order to win you have to play connect and one way to do it is from the bottom up or from the top down, as the example shows in box 1, then it asks you if you want to start the game again
+
+<img src=" imagen/../../Image/ganar4.png"  height = 237>
+ </div></br></br>
+
+<div align="center">
+
+After putting the number 1 to restart the game, it immediately asks us for the move of the player who lost to update the board and continue playing
+
+
+<img src=" imagen/../../Image/reiniciooo.png"  height = 238>
+ </div></br></br>
+
+
+<div align="center">
+
+It is another possibility to win is the left diagonal
+
+<img src=" imagen/../../Image/izquierda.png"  height = 236>
+ </div></br></br>
+
+ <div align="center">
+
+And finally the possibility of winning by the right diagonal and the completion of the program if we put the number 1
+
+<img src=" imagen/../../Image/final.png"  height = 257>
+ </div></br></br>
 <br>
 
 <div align="center">
@@ -184,7 +238,7 @@ Escribir las instrucciones de ejecucion del codigo aqui.
 # Conclusion
 <br>
 
-With this project we completed unit 4 of the 3er quarter, we learned many new functions and codes that were used in every project that was done in the quarter. Everything we learned will be of great help for future work. In this project there were many complications as for example when making the table of the connecting 4, there were also complications when moving the texts to the side of the table but it was possible to reach the desired project. Thank you our master for having
+### With this project we completed unit 4 of the 3er quarter, we learned many new functions and codes that were used in every project that was done in the quarter. Everything we learned will be of great help for future work. In this project there were many complications as for example when making the table of the connecting 4, there were also complications when moving the texts to the side of the table but it was possible to reach the desired project. Thank you our master for having
 <br>
 <br>
 <br>
