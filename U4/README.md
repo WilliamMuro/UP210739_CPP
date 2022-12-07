@@ -4,8 +4,6 @@ UPA<br><sup><sub>Computer Systems Engineering</sub></sup>
 <br>
 
 ### Contributors to this repository:
-<br>
-
 César William Muro Hernández<br>["UP210739"](https://github.com/UP210739)
 <br>
 
@@ -29,21 +27,21 @@ Connect 4
 <br>
 
 ### README.md from Unit 4
-In this folder you will find the game "CONNECT 4" ( ) written in the C++ programming language, it is a game for 2 players in which each player takes turns trying to create a line of 4 tiles in a row and at the same time avoiding another player gets it first.
+In this folder you will find the game "CONNECT 4" [()]() written in the C++ programming language, it is a game for 2 players in which each player takes turns trying to create a line of 4 tiles in a row and at the same time avoiding another player gets it first.
 <br>
 <br>
 <br>
 
 # 
-# Index
+# Index(william)
 <br>
 
-1. Execution instructions.
-   - (Use and general considerations).
-2. Flowchart.
-3. Development and explanation.
-   - (Execution instructions of code execution).
-4. Conclusion.
+[1.- Execution instructions.]()
+   - [(Use and general considerations).]()
+[2.- Flowchart.]()
+[3.- Development and explanation.]()
+   - [(Execution instructions of code execution).]()
+[4.- Conclusion.]()
 <br>
 <br>
 <br>
@@ -55,13 +53,14 @@ In this folder you will find the game "CONNECT 4" ( ) written in the C++ program
 <br>
 
 # 
-# Execution instructions
+# Execution instructions(william)
 <br>
 
+Escribir aqui como iniciar el programa aqui.
 <br>
 
 ### Use and general considerations
-
+Escribir como usarlo y las consideraciones generales aqui.
 <br>
 <br>
 <br>
@@ -72,9 +71,9 @@ In this folder you will find the game "CONNECT 4" ( ) written in the C++ program
 <br>
 <br>
 
-Return to index.
+[Return to index.]()
 # 
-# Flowchart
+# Flowchart(william)
 <br>
 
 This flowchart explains through figures the functions used in the Connect 4 game code.
@@ -93,16 +92,16 @@ This flowchart explains through figures the functions used in the Connect 4 game
 <br>
 <br>
 
-Return to index.
+[Return to index.]()
 # 
-# Development and explanation
+# Development and explanation(Yahir)
 <br>
 
+Escribir explicacion aqui.
 <br>
 
 ### Execution instructions of code execution
-
-
+Escribir las instrucciones de ejecucion del codigo aqui.
 <br>
 <br>
 <br>
@@ -113,11 +112,12 @@ Return to index.
 <br>
 <br>
 
-Return to index.
+[Return to index.]()
 # 
-# Conclusion.
+# Conclusion.(Isa)
 <br>
 
+Escribir la conclusion aqui.
 <br>
 <br>
 <br>
@@ -128,4 +128,4 @@ Return to index.
 <br>
 <br>
 
-Return to index.
+[Return to index.]()
