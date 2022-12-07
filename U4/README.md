@@ -1,11 +1,14 @@
 <h1 align=center>
 <sub>UPA<br><sup>Computer Systems Engineering</sup></sub>
 </h1>
-<div align ="center">
-<br>César William Muro Hernández<br>UP210739<br>Yahir Garcia Alba<br>UP210246<br>Isaias Moreno Luna<br>UP210644
-</div>
 <br>
-<br>
+
+- César William Muro Hernández
+  UP210739
+- Yahir Garcia Alba
+  UP210246
+- Isaias Moreno Luna
+  UP210644
 <br>
 <br>
 <br>
