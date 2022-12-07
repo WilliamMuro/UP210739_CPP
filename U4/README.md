@@ -1,10 +1,13 @@
-<h1 align=center>
-<sub>UPA<br><sup>Computer Systems Engineering</sup></sub>
-</h1>
+# UPA Computer Systems Engineering
 <br>
 
-<div align ="center">
-César William Muro Hernández UP210739                     <br>Yahir Garcia Alba UP210246          <br>Isaias Moreno Luna UP210644           </div>
+César William Muro Hernández UP210739
+<br>
+
+Yahir Garcia Alba UP210246
+<br>
+
+Isaias Moreno Luna UP210644
 <br>
 <br>
 <br>
@@ -28,7 +31,6 @@ In this folder you will find the game "CONNECT 4" ( ) written in the C++ program
 
 # 
 # Index
-<br>
 <br>
 
 1. Execution instructions.
