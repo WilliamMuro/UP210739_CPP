@@ -1,9 +1,9 @@
 <h1 align=center>
-UPA<br><sub><sup>Computer Systems Engineering</sup></sub>
+UPA<br><sup><sub>Computer Systems Engineering</sub></sup>
 </h1>
 <br>
 
-Contributors to this repository:
+### Contributors to this repository:
 <br>
 
 César William Muro Hernández<br>["UP210739"](https://github.com/UP210739)
