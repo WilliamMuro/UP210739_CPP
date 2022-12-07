@@ -1,4 +1,5 @@
 #include <iostream>
+#include <thread>
 using namespace std;
 #include <string>
 
@@ -15,18 +16,20 @@ int CheckFour(char board[][10], playerInfo activePlayer);
 int FullBoard(char board[][10]);
 void PlayerWin(playerInfo activePlayer);
 int restart(char board[][10]);
-
-
+void dibujarEncabezado(char board [][10]);
+void loading();
 
 int main()
 {
-	playerInfo playerOne, playerTwo;
-	char board[9][10]; 
-	int trueWidth = 7; 
-	int trueLength = 6; 
-	int dropChoice, win, full, again;
-	
-	
+    playerInfo playerOne, playerTwo;
+    char board[9][10];
+    int trueWidth = 7;
+    int trueLength = 6;
+    int dropChoice, win, full, again;
+
+    loading();  
+    system("clear");
+    
 	cout << "  " <<endl;
     cout << "  " <<endl;
     cout << "  " <<endl;
@@ -36,42 +39,25 @@ int main()
 	cout << "    ██║  ██╗ ██║  ██║ ██║╚████║ ██║╚████║ ██╔══╝   ██║  ██╗    ██║      ███████║ " <<endl;
 	cout << "    ╚█████╔╝ ╚█████╔╝ ██║ ╚███║ ██║ ╚███║ ███████╗ ╚█████╔╝    ██║      ╚════██║ " <<endl;
 	cout << "     ╚════╝   ╚════╝  ╚═╝  ╚══╝ ╚═╝  ╚══╝ ╚══════╝  ╚════╝     ╚═╝           ╚═╝ " <<endl;
-    cout << "  " <<endl;
-	cout << "Player One enter your name: ";
-	cin  >> playerOne.playerName;
-	playerOne.playerID = 'X';
-	cout << "Player Two enter your name: ";
-	cin  >> playerTwo.playerName;
-	playerTwo.playerID = 'O';
-	
-	full = 0;
-	win = 0;
-	again = 0;
-	DisplayBoard( board );
-	do
-	{
-		dropChoice = PlayerDrop( board, playerOne );
-		CheckBellow( board, playerOne, dropChoice );
-		DisplayBoard( board );
-		win = CheckFour( board, playerOne );
-		if ( win == 1 )
-		{
-			PlayerWin(playerOne);
-			again = restart(board);
-			if (again == 2)
-			{
-				break;
-			}
-		}
+    cout << "  " <<endl;         
+    
+    cout << "Player One please enter your name: ";
+    cin >> playerOne.playerName;
+    playerOne.playerID = 'X';
+    cout << "Player Two please enter your name: ";
+    cin >> playerTwo.playerName;
+    playerTwo.playerID = 'O';
 
     full = 0;
     win = 0;
     again = 0;
+    dibujarEncabezado(board);
     DisplayBoard(board);
     do
     {
         dropChoice = PlayerDrop(board, playerOne);
         CheckBellow(board, playerOne, dropChoice);
+        dibujarEncabezado(board);
         DisplayBoard(board);
         win = CheckFour(board, playerOne);
         if (win == 1)
@@ -86,7 +72,9 @@ int main()
 
         dropChoice = PlayerDrop(board, playerTwo);
         CheckBellow(board, playerTwo, dropChoice);
+        dibujarEncabezado(board);
         DisplayBoard(board);
+        
         win = CheckFour(board, playerTwo);
         if (win == 1)
         {
@@ -147,6 +135,7 @@ void CheckBellow(char board[][10], playerInfo activePlayer, int dropChoice)
     } while (turn != 1);
 }
 
+<<<<<<< HEAD
 void DisplayBoard(char board[][10])
 {
     int rows = 6, columns = 7, i, ix;
@@ -249,6 +238,124 @@ int restart(char board[][10])
     int restart;
 
 <<<<<<< HEAD
+=======
+void dibujarEncabezado (char board[][10]){
+    cout << endl;
+    int rows = 6 , columns = 7, i, ix;
+
+    for ( i = 0; i < columns; ++i) {
+        
+        cout << "|", i +1;
+        cout << "     ";
+        if (i+1 >= columns)
+        {
+            cout<< "|";
+        }
+        
+    }
+    cout << endl;
+}
+
+void DisplayBoard(char board[][10])
+{
+    int rows = 6, columns = 7, i, ix;
+
+    for (i = 1; i <= rows; i++)
+    {
+        cout << "|";
+        for (ix = 1; ix <= columns; ix++)
+        {
+            cout << "  ";
+            if (board[i][ix] != 'X' && board[i][ix] != 'O')
+                board[i][ix] = '*';
+            cout << board[i][ix];
+            cout << "  |";
+        }
+        cout << "" << endl;
+    }
+}
+
+int CheckFour(char board[][10], playerInfo activePlayer)
+{
+    char XO;
+    int win;
+
+    XO = activePlayer.playerID;
+    win = 0;
+
+    for (int i = 8; i >= 1; --i)
+    {
+
+        for (int ix = 9; ix >= 1; --ix)
+        {
+
+            if (board[i][ix] == XO &&
+                board[i - 1][ix - 1] == XO &&
+                board[i - 2][ix - 2] == XO &&
+                board[i - 3][ix - 3] == XO)
+            {
+                win = 1;
+            }
+
+            if (board[i][ix] == XO &&
+                board[i][ix - 1] == XO &&
+                board[i][ix - 2] == XO &&
+                board[i][ix - 3] == XO)
+            {
+                win = 1;
+            }
+
+            if (board[i][ix] == XO &&
+                board[i - 1][ix] == XO &&
+                board[i - 2][ix] == XO &&
+                board[i - 3][ix] == XO)
+            {
+                win = 1;
+            }
+
+            if (board[i][ix] == XO &&
+                board[i - 1][ix + 1] == XO &&
+                board[i - 2][ix + 2] == XO &&
+                board[i - 3][ix + 3] == XO)
+            {
+                win = 1;
+            }
+
+            if (board[i][ix] == XO &&
+                board[i][ix + 1] == XO &&
+                board[i][ix + 2] == XO &&
+                board[i][ix + 3] == XO)
+            {
+                win = 1;
+            }
+        }
+    }
+
+    return win;
+}
+
+int FullBoard(char board[][10])
+{
+    int full;
+    full = 0;
+    for (int i = 1; i <= 7; ++i)
+    {
+        if (board[1][i] != '*')
+            ++full;
+    }
+
+    return full;
+}
+
+void PlayerWin(playerInfo activePlayer)
+{
+    cout << endl
+         << activePlayer.playerName << " Connected Four, You Win!" << endl;
+}
+
+int restart(char board[][10])
+{
+    int restart;
     cout << "Would you like to restart? Yes(1) No(2): ";
     cin >> restart;
     if (restart == 1)
@@ -264,7 +371,7 @@ int restart(char board[][10])
     else
         cout << "Goodbye!" << endl;
     return restart;
-=======
+
 	cout << "Would you like to restart? Yes(1) No(2): ";
 	cin  >> restart;
 	if ( restart == 1 )
@@ -280,5 +387,34 @@ int restart(char board[][10])
 	else
 		cout << "BYE <3	" << endl;
 return restart;
->>>>>>> 75c94909515009dbf35ff8403207d843240c28cb
 }
+void loading(){
+    int i, c;
+    char fcolor[][10] = {
+        "\033[1;31m", "\033[1;32m", "\033[1;33m", "\033[1;34m",
+        "\033[1;35m", "\033[1;36m", "\033[1;37m",
+    };
+    std::cout << fcolor[2] << "\n\t\tLOADING...\n\n\033[0m";
+  
+    for (i=0,c = 0;c < 10; i++,c++) {
+        if(i==20)
+        break;
+        if (c == 7)
+            c = 0;
+            std::cout << fcolor[c] << "\e[?25l\r\t\t   \u280B" << std::flush<<"               ";
+        std::this_thread::sleep_for(0.10s);
+        std::cout << "\r\t\t   \u2819" << std::flush<<"               ";
+        std::this_thread::sleep_for(0.10s);
+        std::cout << "\r\t\t   \u2838" << std::flush<<"               ";
+        std::this_thread::sleep_for(0.10s);
+        std::cout << "\r\t\t   \u2834" << std::flush<<"               ";
+        std::this_thread::sleep_for(0.10s);
+        std::cout << "\r\t\t   \u2826" << std::flush<<"               ";
+        std::this_thread::sleep_for(0.10s);
+        std::cout << "\r\t\t   \u2807\033[0m" << std::flush<<"               ";
+        std::this_thread::sleep_for(0.10s);
+    }
+    std::cout<<"\e[?25h\n\n";
+    return;
+}
+>>>>>>> 6aaf811f37a8965a81f58738c91a94d0ebf2f83e
