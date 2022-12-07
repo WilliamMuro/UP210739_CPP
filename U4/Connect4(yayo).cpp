@@ -17,6 +17,8 @@ void PlayerWin(playerInfo activePlayer);
 int restart(char board[][10]);
 void dibujarEncabezado(char board [][10]);
 void loading();
+void gotoxy(int x,int y);
+void Mensage();
 
 int main()
 {
@@ -26,32 +28,27 @@ int main()
     int trueLength = 6;
     int dropChoice, win, full, again;
 
-    loading();  
     system("clear");
     
-	cout << "  " <<endl;
-    cout << "  " <<endl;
-    cout << "  " <<endl;
-	cout << "     █████╗   █████╗  ███╗  ██╗ ███╗  ██╗ ███████╗  █████╗  ████████╗     ██╗██╗ " <<endl;
-	cout << "    ██╔══██╗ ██╔══██╗ ████╗ ██║ ████╗ ██║ ██╔════╝ ██╔══██╗ ╚══██╔══╝    ██╔╝██║ " <<endl;
-	cout << "    ██║  ╚═╝ ██║  ██║ ██╔██╗██║ ██╔██╗██║ █████╗   ██║  ╚═╝    ██║      ██╔╝ ██║ " <<endl;
-	cout << "    ██║  ██╗ ██║  ██║ ██║╚████║ ██║╚████║ ██╔══╝   ██║  ██╗    ██║      ███████║ " <<endl;
-	cout << "    ╚█████╔╝ ╚█████╔╝ ██║ ╚███║ ██║ ╚███║ ███████╗ ╚█████╔╝    ██║      ╚════██║ " <<endl;
-	cout << "     ╚════╝   ╚════╝  ╚═╝  ╚══╝ ╚═╝  ╚══╝ ╚══════╝  ╚════╝     ╚═╝           ╚═╝ " <<endl;
-    cout << "  " <<endl;         
+    Mensage ();
     
+    gotoxy(40,13);
     cout << "Player One please enter your name: ";
     cin >> playerOne.playerName;
     playerOne.playerID = 'X';
+    gotoxy(40,15);
     cout << "Player Two please enter your name: ";
     cin >> playerTwo.playerName;
     playerTwo.playerID = 'O';
-
+    system("clear");
+    
     full = 0;
     win = 0;
     again = 0;
+    Mensage ();
     dibujarEncabezado(board);
     DisplayBoard(board);
+    
     do
     {
         dropChoice = PlayerDrop(board, playerOne);
@@ -68,7 +65,6 @@ int main()
                 break;
             }
         }
-
         dropChoice = PlayerDrop(board, playerTwo);
         CheckBellow(board, playerTwo, dropChoice);
         dibujarEncabezado(board);
@@ -90,7 +86,6 @@ int main()
             cout << "The board is full, it is a draw!" << endl;
             again = restart(board);
         }
-
     } while (again != 2);
 
     return 0;
@@ -101,18 +96,23 @@ int PlayerDrop(char board[][10], playerInfo activePlayer)
     int dropChoice;
     do
     {
+        cout << "\n";
+        gotoxy(45,13);
         cout << activePlayer.playerName << "'s Turn ";
+        gotoxy(45,14);
         cout << "Please enter a number between 1 and 7: ";
         cin >> dropChoice;
-
+        
         while (board[1][dropChoice] == 'X' || board[1][dropChoice] == 'O')
         {
             cout << "That row is full, please enter a new row: ";
             cin >> dropChoice;
         }
-
+        system("clear");
+        
+        Mensage();
     } while (dropChoice < 1 || dropChoice > 7);
-
+    
     return dropChoice;
 }
 
@@ -141,7 +141,7 @@ void dibujarEncabezado (char board[][10]){
     for ( i = 0; i < columns; ++i) {
         
         cout << "|", i +1;
-        cout << "     ";
+        cout << "  " << i +1 << "  ";
         if (i+1 >= columns)
         {
             cout<< "|";
@@ -265,10 +265,33 @@ int restart(char board[][10])
         }
     }
     else
+        cout <<endl;
         cout << "Goodbye!" << endl;
     return restart;
 }
-void loading(){
+
+void gotoxy(int x,int y){
+    cout<< "\033["<< y << ";" << x << "f" ;
+}
+
+
+void Mensage()
+{
+    cout << "  " <<endl;
+    cout << "  " <<endl;
+    cout << "  " <<endl;
+	cout << "     █████╗   █████╗  ███╗  ██╗ ███╗  ██╗ ███████╗  █████╗  ████████╗     ██╗██╗ " <<endl;
+	cout << "    ██╔══██╗ ██╔══██╗ ████╗ ██║ ████╗ ██║ ██╔════╝ ██╔══██╗ ╚══██╔══╝    ██╔╝██║ " <<endl;
+	cout << "    ██║  ╚═╝ ██║  ██║ ██╔██╗██║ ██╔██╗██║ █████╗   ██║  ╚═╝    ██║      ██╔╝ ██║ " <<endl;
+	cout << "    ██║  ██╗ ██║  ██║ ██║╚████║ ██║╚████║ ██╔══╝   ██║  ██╗    ██║      ███████║ " <<endl;
+	cout << "    ╚█████╔╝ ╚█████╔╝ ██║ ╚███║ ██║ ╚███║ ███████╗ ╚█████╔╝    ██║      ╚════██║ " <<endl;
+	cout << "     ╚════╝   ╚════╝  ╚═╝  ╚══╝ ╚═╝  ╚══╝ ╚══════╝  ╚════╝     ╚═╝           ╚═╝ " <<endl;
+    cout << "  " <<endl;
+    cout << "  " <<endl;         
+    
+    
+}
+/*void loading(){
     int i, c;
     char fcolor[][10] = {
         "\033[1;31m", "\033[1;32m", "\033[1;33m", "\033[1;34m",
@@ -296,4 +319,4 @@ void loading(){
     }
     std::cout<<"\e[?25h\n\n";
     return;
-}
+}*/
