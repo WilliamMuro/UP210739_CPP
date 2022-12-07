@@ -172,7 +172,7 @@ Escribir las instrucciones de ejecucion del codigo aqui.
 </div>
 <br>
 
-# Conclusion.
+# Conclusion
 <br>
 
 With this project we completed unit 4 of the 3er quarter, we learned many new functions and codes that were used in every project that was done in the quarter. Everything we learned will be of great help for future work. In this project there were many complications as for example when making the table of the connecting 4, there were also complications when moving the texts to the side of the table but it was possible to reach the desired project. Thank you our master for having
