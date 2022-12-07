@@ -1,6 +1,7 @@
 #include <iostream>
 #include <thread>
 using namespace std;
+#include <string>
 
 struct playerInfo
 {
@@ -134,6 +135,110 @@ void CheckBellow(char board[][10], playerInfo activePlayer, int dropChoice)
     } while (turn != 1);
 }
 
+<<<<<<< HEAD
+void DisplayBoard(char board[][10])
+{
+    int rows = 6, columns = 7, i, ix;
+
+    for (i = 1; i <= rows; i++)
+    {
+        cout << "|";
+        for (ix = 1; ix <= columns; ix++)
+        cout<< endl;
+        {
+            if (board[i][ix] != 'X' && board[i][ix] != 'O')
+                board[i][ix] = '*';
+
+            cout << board[i][ix];
+        }
+
+        cout << "|" << endl;
+    }
+}
+
+int CheckFour(char board[][10], playerInfo activePlayer)
+{
+    char XO;
+    int win;
+
+    XO = activePlayer.playerID;
+    win = 0;
+
+    for (int i = 8; i >= 1; --i)
+    {
+
+        for (int ix = 9; ix >= 1; --ix)
+        {
+
+            if (board[i][ix] == XO &&
+                board[i - 1][ix - 1] == XO &&
+                board[i - 2][ix - 2] == XO &&
+                board[i - 3][ix - 3] == XO)
+            {
+                win = 1;
+            }
+
+            if (board[i][ix] == XO &&
+                board[i][ix - 1] == XO &&
+                board[i][ix - 2] == XO &&
+                board[i][ix - 3] == XO)
+            {
+                win = 1;
+            }
+
+            if (board[i][ix] == XO &&
+                board[i - 1][ix] == XO &&
+                board[i - 2][ix] == XO &&
+                board[i - 3][ix] == XO)
+            {
+                win = 1;
+            }
+
+            if (board[i][ix] == XO &&
+                board[i - 1][ix + 1] == XO &&
+                board[i - 2][ix + 2] == XO &&
+                board[i - 3][ix + 3] == XO)
+            {
+                win = 1;
+            }
+
+            if (board[i][ix] == XO &&
+                board[i][ix + 1] == XO &&
+                board[i][ix + 2] == XO &&
+                board[i][ix + 3] == XO)
+            {
+                win = 1;
+            }
+        }
+    }
+
+    return win;
+}
+
+int FullBoard(char board[][10])
+{
+    int full;
+    full = 0;
+    for (int i = 1; i <= 7; ++i)
+    {
+        if (board[1][i] != '*')
+            ++full;
+    }
+
+    return full;
+}
+
+void PlayerWin(playerInfo activePlayer)
+{
+	cout << endl << activePlayer.playerName << " ¡You Win!" << endl;
+}
+
+int restart(char board[][10])
+{
+    int restart;
+
+<<<<<<< HEAD
+=======
 void dibujarEncabezado (char board[][10]){
     cout << endl;
     int rows = 6 , columns = 7, i, ix;
@@ -251,7 +356,6 @@ void PlayerWin(playerInfo activePlayer)
 int restart(char board[][10])
 {
     int restart;
-
     cout << "Would you like to restart? Yes(1) No(2): ";
     cin >> restart;
     if (restart == 1)
@@ -267,6 +371,22 @@ int restart(char board[][10])
     else
         cout << "Goodbye!" << endl;
     return restart;
+
+	cout << "Would you like to restart? Yes(1) No(2): ";
+	cin  >> restart;
+	if ( restart == 1 )
+	{
+		for(int i = 1; i <= 6; i++)
+		{
+			for(int ix = 1; ix <= 7; ix++)
+			{
+				board[i][ix] = '*';
+			}
+		}
+	}
+	else
+		cout << "BYE <3	" << endl;
+return restart;
 }
 void loading(){
     int i, c;
@@ -297,3 +417,4 @@ void loading(){
     std::cout<<"\e[?25h\n\n";
     return;
 }
+>>>>>>> 6aaf811f37a8965a81f58738c91a94d0ebf2f83e
