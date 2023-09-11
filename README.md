@@ -1,5 +1,5 @@
 <div align ="center">
-<br>UPA Computer Systems Engineering 3° B
+<br>UPA Computer Systems Engineering
 </div>
 
 ## 
