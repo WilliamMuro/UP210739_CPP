@@ -22,7 +22,3 @@ Works and programming practices will be uploaded in this repository.
 - U4 <sup>[Click here to see.](https://github.com/UP210739/UP210739_CPP/tree/main/U4)</sup>
 > Team project to create the game Connect 4 [(Connect4.cpp)](https://github.com/UP210739/UP210739_CPP/blob/main/U4/Connect4.cpp) in C++.
 <br>
-
-# 
-### Social Network
-:camera: Instagram: [cwilliammuro](https://www.instagram.com/cwilliammuro/)
